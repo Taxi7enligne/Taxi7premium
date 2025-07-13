@@ -32,7 +32,20 @@
 <!-- Google reCaptcha -->
 <script src="../www.google.com/recaptcha/api.js"></script>
 
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/drift-zoom/drift-basic.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
  <!-- Google tag (gtag.js) -->
  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16909657112"></script>
@@ -578,7 +591,7 @@
 <style>
 .sepbetween {
   height: 2px;
-  background-color: #ffc371; /* Taxi accent yellow */
+  background-color: #201c14; /* Taxi accent yellow */
   margin: 1rem 0;
   border-radius: 2px;
   box-shadow: 0 0 4px #f6b30288;
@@ -602,13 +615,13 @@
           <h1 class="mb-4"><b></b></h1>
           <ul class="container-benefits">
             <div class="sepbetween"></div>
-                        <li><svg height="37" width="37" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 20.75H6C5.27065 20.75 4.57118 20.4603 4.05546 19.9445C3.53973 19.4288 3.25 18.7293 3.25 18V6C3.25 5.27065 3.53973 4.57118 4.05546 4.05546C4.57118 3.53973 5.27065 3.25 6 3.25H14.86C15.0589 3.25 15.2497 3.32902 15.3903 3.46967C15.531 3.61032 15.61 3.80109 15.61 4C15.61 4.19891 15.531 4.38968 15.3903 4.53033C15.2497 4.67098 15.0589 4.75 14.86 4.75H6C5.66848 4.75 5.35054 4.8817 5.11612 5.11612C4.8817 5.35054 4.75 5.66848 4.75 6V18C4.75 18.3315 4.8817 18.6495 5.11612 18.8839C5.35054 19.1183 5.66848 19.25 6 19.25H18C18.3315 19.25 18.6495 19.1183 18.8839 18.8839C19.1183 18.6495 19.25 18.3315 19.25 18V10.29C19.25 10.0911 19.329 9.90032 19.4697 9.75967C19.6103 9.61902 19.8011 9.54 20 9.54C20.1989 9.54 20.3897 9.61902 20.5303 9.75967C20.671 9.90032 20.75 10.0911 20.75 10.29V18C20.75 18.7293 20.4603 19.4288 19.9445 19.9445C19.4288 20.4603 18.7293 20.75 18 20.75Z" fill="#1f2229"></path> <path d="M10.5 15.25C10.3071 15.2352 10.1276 15.1455 10 15L7.00001 12C6.93317 11.86 6.91136 11.7028 6.93759 11.5499C6.96382 11.3971 7.03679 11.2561 7.14646 11.1464C7.25613 11.0368 7.3971 10.9638 7.54996 10.9376C7.70282 10.9113 7.86006 10.9331 8.00001 11L10.47 13.47L19 4.99998C19.14 4.93314 19.2972 4.91133 19.4501 4.93756C19.6029 4.96379 19.7439 5.03676 19.8536 5.14643C19.9632 5.2561 20.0362 5.39707 20.0624 5.54993C20.0887 5.70279 20.0669 5.86003 20 5.99998L11 15C10.8724 15.1455 10.693 15.2352 10.5 15.25Z" fill="#000000"></path> </g></svg>
+                        <li><svg height="37" width="37" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 20.75H6C5.27065 20.75 4.57118 20.4603 4.05546 19.9445C3.53973 19.4288 3.25 18.7293 3.25 18V6C3.25 5.27065 3.53973 4.57118 4.05546 4.05546C4.57118 3.53973 5.27065 3.25 6 3.25H14.86C15.0589 3.25 15.2497 3.32902 15.3903 3.46967C15.531 3.61032 15.61 3.80109 15.61 4C15.61 4.19891 15.531 4.38968 15.3903 4.53033C15.2497 4.67098 15.0589 4.75 14.86 4.75H6C5.66848 4.75 5.35054 4.8817 5.11612 5.11612C4.8817 5.35054 4.75 5.66848 4.75 6V18C4.75 18.3315 4.8817 18.6495 5.11612 18.8839C5.35054 19.1183 5.66848 19.25 6 19.25H18C18.3315 19.25 18.6495 19.1183 18.8839 18.8839C19.1183 18.6495 19.25 18.3315 19.25 18V10.29C19.25 10.0911 19.329 9.90032 19.4697 9.75967C19.6103 9.61902 19.8011 9.54 20 9.54C20.1989 9.54 20.3897 9.61902 20.5303 9.75967C20.671 9.90032 20.75 10.0911 20.75 10.29V18C20.75 18.7293 20.4603 19.4288 19.9445 19.9445C19.4288 20.4603 18.7293 20.75 18 20.75Z" fill="#201c14"></path> <path d="M10.5 15.25C10.3071 15.2352 10.1276 15.1455 10 15L7.00001 12C6.93317 11.86 6.91136 11.7028 6.93759 11.5499C6.96382 11.3971 7.03679 11.2561 7.14646 11.1464C7.25613 11.0368 7.3971 10.9638 7.54996 10.9376C7.70282 10.9113 7.86006 10.9331 8.00001 11L10.47 13.47L19 4.99998C19.14 4.93314 19.2972 4.91133 19.4501 4.93756C19.6029 4.96379 19.7439 5.03676 19.8536 5.14643C19.9632 5.2561 20.0362 5.39707 20.0624 5.54993C20.0887 5.70279 20.0669 5.86003 20 5.99998L11 15C10.8724 15.1455 10.693 15.2352 10.5 15.25Z" fill="#201c14"></path> </g></svg>
 <p>De service Premium taxi</p></li>
-            <li><svg height="37" width="37" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 20.75H6C5.27065 20.75 4.57118 20.4603 4.05546 19.9445C3.53973 19.4288 3.25 18.7293 3.25 18V6C3.25 5.27065 3.53973 4.57118 4.05546 4.05546C4.57118 3.53973 5.27065 3.25 6 3.25H14.86C15.0589 3.25 15.2497 3.32902 15.3903 3.46967C15.531 3.61032 15.61 3.80109 15.61 4C15.61 4.19891 15.531 4.38968 15.3903 4.53033C15.2497 4.67098 15.0589 4.75 14.86 4.75H6C5.66848 4.75 5.35054 4.8817 5.11612 5.11612C4.8817 5.35054 4.75 5.66848 4.75 6V18C4.75 18.3315 4.8817 18.6495 5.11612 18.8839C5.35054 19.1183 5.66848 19.25 6 19.25H18C18.3315 19.25 18.6495 19.1183 18.8839 18.8839C19.1183 18.6495 19.25 18.3315 19.25 18V10.29C19.25 10.0911 19.329 9.90032 19.4697 9.75967C19.6103 9.61902 19.8011 9.54 20 9.54C20.1989 9.54 20.3897 9.61902 20.5303 9.75967C20.671 9.90032 20.75 10.0911 20.75 10.29V18C20.75 18.7293 20.4603 19.4288 19.9445 19.9445C19.4288 20.4603 18.7293 20.75 18 20.75Z" fill="#1f2229"></path> <path d="M10.5 15.25C10.3071 15.2352 10.1276 15.1455 10 15L7.00001 12C6.93317 11.86 6.91136 11.7028 6.93759 11.5499C6.96382 11.3971 7.03679 11.2561 7.14646 11.1464C7.25613 11.0368 7.3971 10.9638 7.54996 10.9376C7.70282 10.9113 7.86006 10.9331 8.00001 11L10.47 13.47L19 4.99998C19.14 4.93314 19.2972 4.91133 19.4501 4.93756C19.6029 4.96379 19.7439 5.03676 19.8536 5.14643C19.9632 5.2561 20.0362 5.39707 20.0624 5.54993C20.0887 5.70279 20.0669 5.86003 20 5.99998L11 15C10.8724 15.1455 10.693 15.2352 10.5 15.25Z" fill="#000000"></path> </g></svg>
+            <li><svg height="37" width="37" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 20.75H6C5.27065 20.75 4.57118 20.4603 4.05546 19.9445C3.53973 19.4288 3.25 18.7293 3.25 18V6C3.25 5.27065 3.53973 4.57118 4.05546 4.05546C4.57118 3.53973 5.27065 3.25 6 3.25H14.86C15.0589 3.25 15.2497 3.32902 15.3903 3.46967C15.531 3.61032 15.61 3.80109 15.61 4C15.61 4.19891 15.531 4.38968 15.3903 4.53033C15.2497 4.67098 15.0589 4.75 14.86 4.75H6C5.66848 4.75 5.35054 4.8817 5.11612 5.11612C4.8817 5.35054 4.75 5.66848 4.75 6V18C4.75 18.3315 4.8817 18.6495 5.11612 18.8839C5.35054 19.1183 5.66848 19.25 6 19.25H18C18.3315 19.25 18.6495 19.1183 18.8839 18.8839C19.1183 18.6495 19.25 18.3315 19.25 18V10.29C19.25 10.0911 19.329 9.90032 19.4697 9.75967C19.6103 9.61902 19.8011 9.54 20 9.54C20.1989 9.54 20.3897 9.61902 20.5303 9.75967C20.671 9.90032 20.75 10.0911 20.75 10.29V18C20.75 18.7293 20.4603 19.4288 19.9445 19.9445C19.4288 20.4603 18.7293 20.75 18 20.75Z" fill="#201c14"></path> <path d="M10.5 15.25C10.3071 15.2352 10.1276 15.1455 10 15L7.00001 12C6.93317 11.86 6.91136 11.7028 6.93759 11.5499C6.96382 11.3971 7.03679 11.2561 7.14646 11.1464C7.25613 11.0368 7.3971 10.9638 7.54996 10.9376C7.70282 10.9113 7.86006 10.9331 8.00001 11L10.47 13.47L19 4.99998C19.14 4.93314 19.2972 4.91133 19.4501 4.93756C19.6029 4.96379 19.7439 5.03676 19.8536 5.14643C19.9632 5.2561 20.0362 5.39707 20.0624 5.54993C20.0887 5.70279 20.0669 5.86003 20 5.99998L11 15C10.8724 15.1455 10.693 15.2352 10.5 15.25Z" fill="#201c14"></path> </g></svg>
 <p>Réservation facile et instantanée</p></li>
-            <li><svg height="37" width="37" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 20.75H6C5.27065 20.75 4.57118 20.4603 4.05546 19.9445C3.53973 19.4288 3.25 18.7293 3.25 18V6C3.25 5.27065 3.53973 4.57118 4.05546 4.05546C4.57118 3.53973 5.27065 3.25 6 3.25H14.86C15.0589 3.25 15.2497 3.32902 15.3903 3.46967C15.531 3.61032 15.61 3.80109 15.61 4C15.61 4.19891 15.531 4.38968 15.3903 4.53033C15.2497 4.67098 15.0589 4.75 14.86 4.75H6C5.66848 4.75 5.35054 4.8817 5.11612 5.11612C4.8817 5.35054 4.75 5.66848 4.75 6V18C4.75 18.3315 4.8817 18.6495 5.11612 18.8839C5.35054 19.1183 5.66848 19.25 6 19.25H18C18.3315 19.25 18.6495 19.1183 18.8839 18.8839C19.1183 18.6495 19.25 18.3315 19.25 18V10.29C19.25 10.0911 19.329 9.90032 19.4697 9.75967C19.6103 9.61902 19.8011 9.54 20 9.54C20.1989 9.54 20.3897 9.61902 20.5303 9.75967C20.671 9.90032 20.75 10.0911 20.75 10.29V18C20.75 18.7293 20.4603 19.4288 19.9445 19.9445C19.4288 20.4603 18.7293 20.75 18 20.75Z" fill="#1f2229"></path> <path d="M10.5 15.25C10.3071 15.2352 10.1276 15.1455 10 15L7.00001 12C6.93317 11.86 6.91136 11.7028 6.93759 11.5499C6.96382 11.3971 7.03679 11.2561 7.14646 11.1464C7.25613 11.0368 7.3971 10.9638 7.54996 10.9376C7.70282 10.9113 7.86006 10.9331 8.00001 11L10.47 13.47L19 4.99998C19.14 4.93314 19.2972 4.91133 19.4501 4.93756C19.6029 4.96379 19.7439 5.03676 19.8536 5.14643C19.9632 5.2561 20.0362 5.39707 20.0624 5.54993C20.0887 5.70279 20.0669 5.86003 20 5.99998L11 15C10.8724 15.1455 10.693 15.2352 10.5 15.25Z" fill="#000000"></path> </g></svg>
+            <li><svg height="37" width="37" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 20.75H6C5.27065 20.75 4.57118 20.4603 4.05546 19.9445C3.53973 19.4288 3.25 18.7293 3.25 18V6C3.25 5.27065 3.53973 4.57118 4.05546 4.05546C4.57118 3.53973 5.27065 3.25 6 3.25H14.86C15.0589 3.25 15.2497 3.32902 15.3903 3.46967C15.531 3.61032 15.61 3.80109 15.61 4C15.61 4.19891 15.531 4.38968 15.3903 4.53033C15.2497 4.67098 15.0589 4.75 14.86 4.75H6C5.66848 4.75 5.35054 4.8817 5.11612 5.11612C4.8817 5.35054 4.75 5.66848 4.75 6V18C4.75 18.3315 4.8817 18.6495 5.11612 18.8839C5.35054 19.1183 5.66848 19.25 6 19.25H18C18.3315 19.25 18.6495 19.1183 18.8839 18.8839C19.1183 18.6495 19.25 18.3315 19.25 18V10.29C19.25 10.0911 19.329 9.90032 19.4697 9.75967C19.6103 9.61902 19.8011 9.54 20 9.54C20.1989 9.54 20.3897 9.61902 20.5303 9.75967C20.671 9.90032 20.75 10.0911 20.75 10.29V18C20.75 18.7293 20.4603 19.4288 19.9445 19.9445C19.4288 20.4603 18.7293 20.75 18 20.75Z" fill="#201c14"></path> <path d="M10.5 15.25C10.3071 15.2352 10.1276 15.1455 10 15L7.00001 12C6.93317 11.86 6.91136 11.7028 6.93759 11.5499C6.96382 11.3971 7.03679 11.2561 7.14646 11.1464C7.25613 11.0368 7.3971 10.9638 7.54996 10.9376C7.70282 10.9113 7.86006 10.9331 8.00001 11L10.47 13.47L19 4.99998C19.14 4.93314 19.2972 4.91133 19.4501 4.93756C19.6029 4.96379 19.7439 5.03676 19.8536 5.14643C19.9632 5.2561 20.0362 5.39707 20.0624 5.54993C20.0887 5.70279 20.0669 5.86003 20 5.99998L11 15C10.8724 15.1455 10.693 15.2352 10.5 15.25Z" fill="#201c14"></path> </g></svg>
 <p>Disponibilité continue 24/7</p></li>
-            <li><svg height="37" width="37" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 20.75H6C5.27065 20.75 4.57118 20.4603 4.05546 19.9445C3.53973 19.4288 3.25 18.7293 3.25 18V6C3.25 5.27065 3.53973 4.57118 4.05546 4.05546C4.57118 3.53973 5.27065 3.25 6 3.25H14.86C15.0589 3.25 15.2497 3.32902 15.3903 3.46967C15.531 3.61032 15.61 3.80109 15.61 4C15.61 4.19891 15.531 4.38968 15.3903 4.53033C15.2497 4.67098 15.0589 4.75 14.86 4.75H6C5.66848 4.75 5.35054 4.8817 5.11612 5.11612C4.8817 5.35054 4.75 5.66848 4.75 6V18C4.75 18.3315 4.8817 18.6495 5.11612 18.8839C5.35054 19.1183 5.66848 19.25 6 19.25H18C18.3315 19.25 18.6495 19.1183 18.8839 18.8839C19.1183 18.6495 19.25 18.3315 19.25 18V10.29C19.25 10.0911 19.329 9.90032 19.4697 9.75967C19.6103 9.61902 19.8011 9.54 20 9.54C20.1989 9.54 20.3897 9.61902 20.5303 9.75967C20.671 9.90032 20.75 10.0911 20.75 10.29V18C20.75 18.7293 20.4603 19.4288 19.9445 19.9445C19.4288 20.4603 18.7293 20.75 18 20.75Z" fill="#1f2229"></path> <path d="M10.5 15.25C10.3071 15.2352 10.1276 15.1455 10 15L7.00001 12C6.93317 11.86 6.91136 11.7028 6.93759 11.5499C6.96382 11.3971 7.03679 11.2561 7.14646 11.1464C7.25613 11.0368 7.3971 10.9638 7.54996 10.9376C7.70282 10.9113 7.86006 10.9331 8.00001 11L10.47 13.47L19 4.99998C19.14 4.93314 19.2972 4.91133 19.4501 4.93756C19.6029 4.96379 19.7439 5.03676 19.8536 5.14643C19.9632 5.2561 20.0362 5.39707 20.0624 5.54993C20.0887 5.70279 20.0669 5.86003 20 5.99998L11 15C10.8724 15.1455 10.693 15.2352 10.5 15.25Z" fill="#000000"></path> </g></svg>
+            <li><svg height="37" width="37" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 20.75H6C5.27065 20.75 4.57118 20.4603 4.05546 19.9445C3.53973 19.4288 3.25 18.7293 3.25 18V6C3.25 5.27065 3.53973 4.57118 4.05546 4.05546C4.57118 3.53973 5.27065 3.25 6 3.25H14.86C15.0589 3.25 15.2497 3.32902 15.3903 3.46967C15.531 3.61032 15.61 3.80109 15.61 4C15.61 4.19891 15.531 4.38968 15.3903 4.53033C15.2497 4.67098 15.0589 4.75 14.86 4.75H6C5.66848 4.75 5.35054 4.8817 5.11612 5.11612C4.8817 5.35054 4.75 5.66848 4.75 6V18C4.75 18.3315 4.8817 18.6495 5.11612 18.8839C5.35054 19.1183 5.66848 19.25 6 19.25H18C18.3315 19.25 18.6495 19.1183 18.8839 18.8839C19.1183 18.6495 19.25 18.3315 19.25 18V10.29C19.25 10.0911 19.329 9.90032 19.4697 9.75967C19.6103 9.61902 19.8011 9.54 20 9.54C20.1989 9.54 20.3897 9.61902 20.5303 9.75967C20.671 9.90032 20.75 10.0911 20.75 10.29V18C20.75 18.7293 20.4603 19.4288 19.9445 19.9445C19.4288 20.4603 18.7293 20.75 18 20.75Z" fill="#201c14"></path> <path d="M10.5 15.25C10.3071 15.2352 10.1276 15.1455 10 15L7.00001 12C6.93317 11.86 6.91136 11.7028 6.93759 11.5499C6.96382 11.3971 7.03679 11.2561 7.14646 11.1464C7.25613 11.0368 7.3971 10.9638 7.54996 10.9376C7.70282 10.9113 7.86006 10.9331 8.00001 11L10.47 13.47L19 4.99998C19.14 4.93314 19.2972 4.91133 19.4501 4.93756C19.6029 4.96379 19.7439 5.03676 19.8536 5.14643C19.9632 5.2561 20.0362 5.39707 20.0624 5.54993C20.0887 5.70279 20.0669 5.86003 20 5.99998L11 15C10.8724 15.1455 10.693 15.2352 10.5 15.25Z" fill="#201c14"></path> </g></svg>
 <p>Service fiable et à l'heure</p></li>
             <div class="sepbetween"></div>
           </ul>
@@ -617,58 +630,42 @@
       <div class="col-lg-2 col"></div>
       <div class="col-lg-4 col-md-6 mt-0 mt-md-5 d-flex">
 <style>
-  /* Background & container */
   .request-form {
-    background-color: #1f2229;
+    background-color: #1f1b17;
     padding: 20px;
     border-radius: 8px;
-    color: #ffd255;
+    color: #d5c1a0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    box-shadow: 0 0 10px #ffc37133;
+    box-shadow: 0 0 10px #987c5c55;
   }
 
-  /* Labels */
   .request-form label.label {
-    color: #f6b302;
+    color: #c4a77f;
     font-weight: 600;
   }
 
-  /* Inputs */
   .request-form input.form-control {
-    background-color: #2b2e35;
-    border: 1.5px solid #3c3f46;
+    background-color: #2b241f;
+    border: 1.5px solid #3a322c;
     color: #ffffff;
     transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
   }
 
-  /* Placeholder color updated to white - all browsers */
-  .request-form input.form-control::placeholder {
-    color: #ffffff !important;
-    opacity: 1 !important;
-  }
-  .request-form input.form-control::-webkit-input-placeholder {
-    color: #ffffff !important;
-    opacity: 1 !important;
-  }
-  .request-form input.form-control::-moz-placeholder {
-    color: #ffffff !important;
-    opacity: 1 !important;
-  }
-  .request-form input.form-control:-ms-input-placeholder {
-    color: #ffffff !important;
-    opacity: 1 !important;
-  }
+  .request-form input.form-control::placeholder,
+  .request-form input.form-control::-webkit-input-placeholder,
+  .request-form input.form-control::-moz-placeholder,
+  .request-form input.form-control:-ms-input-placeholder,
   .request-form input.form-control:-moz-placeholder {
     color: #ffffff !important;
     opacity: 1 !important;
   }
 
   .request-form input.form-control:focus {
-    border-color: #ffc371;
-    box-shadow: 0 0 8px #ffc37188;
+    border-color: #987c5c;
+    box-shadow: 0 0 8px #987c5c88;
     outline: none;
-    background-color: #3c3f46;
-    color: #ffd255;
+    background-color: #3a322c;
+    color: #d5c1a0;
     transform: scale(1.03);
     z-index: 10;
   }
@@ -676,19 +673,18 @@
   .request-form input.form-control,
   .request-form input.form-control:focus,
   .request-form input.form-control:-webkit-autofill {
-    color: #ffd255 !important;
+    color: #d5c1a0 !important;
     -webkit-text-fill-color: #ffffff !important;
   }
 
   .request-form .input-group-text {
-    background-color: #2b2e35;
-    border: 1.5px solid #3c3f46;
-    color: #f6b302;
+    background-color: #2b241f;
+    border: 1.5px solid #3a322c;
+    color: #987c5c;
   }
 
-  /* Radio buttons */
   .toggle-container.wide {
-    background-color: #2b2e35;
+    background-color: #2b241f;
     border-radius: 5px;
     padding: 5px;
     display: flex;
@@ -701,75 +697,71 @@
 
   .toggle-container.wide label {
     cursor: pointer;
-    color: #f6b302;
+    color: #c4a77f;
     padding: 6px 15px;
     border-radius: 4px;
-    background-color: #3c3f46;
+    background-color: #3a322c;
     user-select: none;
     transition: background-color 0.3s ease;
   }
 
   .toggle-container.wide input.toggle:checked + label {
-    background-color: #ffc371;
-    color: #1f2229;
-    box-shadow: 0 0 10px #f6b302aa;
+    background-color: #987c5c;
+    color: #1f1b17;
+    box-shadow: 0 0 10px #987c5caa;
   }
 
-  /* Date & time inputs */
   input[type="date"],
   input[type="time"] {
-    color: #ffd255;
-    background-color: #2b2e35;
-    border: 1.5px solid #3c3f46;
+    color: #d5c1a0;
+    background-color: #2b241f;
+    border: 1.5px solid #3a322c;
     border-radius: 4px;
     padding-right: 30px;
   }
 
   input[type="date"]::-webkit-calendar-picker-indicator,
   input[type="time"]::-webkit-calendar-picker-indicator {
-    filter: brightness(2) sepia(1) saturate(10) hue-rotate(5deg);
+    filter: brightness(2) sepia(1) saturate(8) hue-rotate(20deg);
   }
 
-  /* Error messages */
   .invalid-feedback,
   #phoneError,
   #departureError,
   #arrivalError,
   #captchaError {
-    color: #ff6f6f;
+    color: #ff7c7c;
     font-weight: 600;
     margin-top: 5px;
   }
 
   .address-feedback {
-    color: #ffd255aa;
+    color: #d5c1a088;
     font-size: 0.9em;
   }
 
-  /* Submit button - bright taxi yellow */
   .btn-primary {
-    background: linear-gradient(45deg, #ffc371, #f6b302);
+    background: linear-gradient(45deg, #987c5c, #7d6245);
     border: none;
     font-weight: 700;
-    box-shadow: 0 0 8px #f6b302cc;
+    box-shadow: 0 0 8px #987c5ccc;
     transition: background 0.3s ease, box-shadow 0.3s ease;
-    color: #1f2229;
+    color: #1f1b17;
   }
 
   .btn-primary:hover {
-    background: linear-gradient(45deg, #f6b302, #ffd255);
-    box-shadow: 0 0 12px #ffd255ee;
+    background: linear-gradient(45deg, #7d6245, #b99a76);
+    box-shadow: 0 0 12px #b99a76ee;
   }
 
-  /* Phone icon & button */
   .btn-number {
-    background-color: #2b2e35;
-    border: 1.5px solid #ffc371;
+    background-color: #2b241f;
+    border: 1.5px solid #987c5c;
     padding: 8px 15px;
     border-radius: 5px;
     display: inline-flex;
     align-items: center;
-    color: #ffd255;
+    color: #d5c1a0;
     text-decoration: none;
     font-weight: 600;
     margin-top: 10px;
@@ -777,16 +769,17 @@
   }
 
   .btn-number:hover {
-    background-color: #f6b302;
-    border-color: #ffd255;
-    color: #1f2229;
+    background-color: #987c5c;
+    border-color: #b99a76;
+    color: #1f1b17;
   }
 
   .btn-number svg {
-    fill: #f6b302;
+    fill: #987c5c;
     margin-right: 8px;
   }
 </style>
+
 
 
 
@@ -1129,1207 +1122,939 @@
 
 
 
+    <!-- About Home Section -->
+    <section id="about-home" class="about-home section">
 
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-<section style="padding: 50px 20px; background-color: #1f2229; text-align: center;">
-  <h1 style="text-align: center; font-size: 48px; font-weight: 600; margin-bottom: 60px; color: #ffc371;">NOS SERVICE</h1>
+        <div class="row align-items-center">
 
-  <!-- First Row -->
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; max-width: 1200px; margin: 0 auto 40px auto;">
-    
-    <!-- Card 1 -->
-    <div class="card-animated card-hover" style="flex: 1 1 300px; max-width: 350px; background: #2b2e35; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 15px rgba(246, 179, 2, 0.15); display: flex; flex-direction: column; height: 750px; color: #ffd255;">
-      <div style="height: 270px; background-image: url('assets/images/paris.jpeg'); background-size: contain; background-repeat: no-repeat; background-position: top center;"></div>
-      <div style="flex-grow: 1; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: space-between;">
-        <div>
-          <h3 style="color: #ffc371;">Transfert Privé sur mesure à Paris</h3><br>
-          <p>Service de transfert privé à Paris, adapté à vos besoins et horaires. Confort, discrétion et ponctualité pour tous vos déplacements.</p>
-        </div>
-        <div class="scroll-container" style="margin-top: 15px; height: 200px; overflow: hidden; position: relative; cursor: grab;">
-          <div class="scrolling-buttons scrolling-content">
-            <div class="button-wrapper"><a href="aide/Chateau de Versailles.html" class="station-btn">Chateau de Versailles</a></div>
-            <div class="button-wrapper"><a href="aide/Museum de Louvre.html" class="station-btn">Musée de Louvre</a></div>
-            <div class="button-wrapper"><a href="aide/Tour Eiffel.html" class="station-btn">Tour Eiffel</a></div>
-            <div class="button-wrapper"><a href="aide/Dôme des Invalides.html" class="station-btn">Musée dôme des invalide</a></div>
-            <div class="button-wrapper"><a href="aide/notre-dame.html" class="station-btn">Notre Dame De Paris</a></div>
-            <div class="button-wrapper"><a href="aide/Billets Arc de Triomphe Rooftop.html" class="station-btn">Arc de Triomphe de Paris</a></div>
-            <div class="button-wrapper"><a href="aide/Paris  billet d'entrée à l'Opéra Garnier.html" class="station-btn">l'Opéra Garnier de Paris</a></div>
-          </div>
-        </div>
-      </div>
+          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="200">
+            <div class="about-images">
+              <div class="image-stack">
+                <div class="image-main">
+                  <img src="assets/img/hotel/showcase-3.webp" alt="Heritage Hotel Exterior" class="img-fluid">
+                </div>
+                <div class="image-overlay">
+                  <img src="assets/img/hotel/room-8.webp" alt="Elegant Room Interior" class="img-fluid">
+                </div>
+              </div>
+              <div class="floating-badge">
+                <div class="badge-icon">
+                  <i class="bi bi-award"></i>
+                </div>
+                <div class="badge-info">
+                  <span class="badge-title">5-Star</span>
+                  <span class="badge-subtitle">Luxury</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End About Images -->
+
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="300">
+            <div class="about-content">
+              <div class="section-header">
+                <span class="subtitle">Service chauffeur VIP</span>
+                <h2>Location de limousines, bus, minibus,
+véhicules d'exception avec chauffeur privé</h2>
+              </div>
+
+              <p>Nos chauffeurs possèdent des profils variés afin de répondre aux plus hautes exigences.
+Selon vos attentes et vos besoins, nos concierges mettront leur savoir-faire à votre service pour vous garantir une expérience unique.</p>
+
+              <p>Nous vous accompagnons pour vos déplacements ponctuels ou réguliers, qu’il s’agisse de mises à disposition, transferts aéroport, transferts gares, transfert héliport, ainsi que pour vos évènements privés, sportifs ou culturels. Nous pouvons également mobiliser une équipe dédiée pour la gestion et l’organisation de vos shuttles et navettes.</p>
+
+<div class="features-grid">
+  <div class="feature-item">
+    <div class="feature-icon">
+      <i class="bi bi-car-front-fill"></i>
     </div>
-
-    <!-- Card 2 -->
-    <div class="card-animated card-hover" style="flex: 1 1 300px; max-width: 350px; background: #2b2e35; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 15px rgba(246, 179, 2, 0.15); display: flex; flex-direction: column; height: 750px; color: #ffd255;">
-      <div style="height: 270px; background-image: url('assets/images/train.jpeg'); background-size: contain; background-repeat: no-repeat; background-position: top center;"></div>
-      <div style="flex-grow: 1; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: space-between;">
-        <div>
-          <h3 style="color: #ffc371;">Transfert Gares De Paris</h3><br>
-          <p>Chauffeurs professionnels et fiables à Paris, pour des trajets rapides, sûrs et confortables, en toute discrétion.</p>
-        </div>
-        <div class="scroll-container" style="margin-top: 15px; height: 200px; overflow: hidden; position: relative; cursor: grab;">
-          <div class="scrolling-buttons scrolling-content">
-            <div class="button-wrapper"><a href="aide/gare-du-nord.html" class="station-btn">Gare du Nord</a></div>
-            <div class="button-wrapper"><a href="aide/gare-est.html" class="station-btn">Gare de l'Est</a></div>
-            <div class="button-wrapper"><a href="aide/gare-de-lyon.html" class="station-btn">Gare de Lyon</a></div>
-            <div class="button-wrapper"><a href="aide/gare-saint-lazare.html" class="station-btn">Gare Saint-Lazare</a></div>
-            <div class="button-wrapper"><a href="aide/gare-austerlitz.html" class="station-btn">Gare d'Austerlitz</a></div>
-            <div class="button-wrapper"><a href="aide/gare-bercy.html" class="station-btn">Gare de Bercy</a></div>
-            <div class="button-wrapper"><a href="aide/gare-montparnasse.html" class="station-btn">Gare Montparnasse</a></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Card 3 -->
-    <div class="card-animated card-hover" style="flex: 1 1 300px; max-width: 350px; background: #2b2e35; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 15px rgba(246, 179, 2, 0.15); display: flex; flex-direction: column; height: 750px; color: #ffd255;">
-      <div style="height: 270px; background-image: url('assets/images/plane.jpeg'); background-size: contain; background-repeat: no-repeat; background-position: top center;"></div>
-      <div style="flex-grow: 1; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: space-between;">
-        <div>
-          <h3 style="color: #ffc371;">Transfert Aéroport Sur Mesure</h3><br>
-          <p>Service de transfert privé entre l’aéroport et Paris, rapide, confortable et fiable, pour un accueil personnalisé dès votre arrivée.</p>
-        </div>
-        <div style="margin-top: 15px; display: flex; flex-direction: column; gap: 8px;">
-          <div class="button-wrapper"><a href="aide/aeroport-paris-cdg.html" class="station-btn">Charles de Gaulle</a></div>
-          <div class="button-wrapper"><a href="aide/aeroport-paris-orly.html" class="station-btn">Paris-Orly</a></div>
-          <div class="button-wrapper"><a href="aide/aeroport-paris-beauvais.html" class="station-btn">Paris-Beauvais</a></div>
-          <div class="button-wrapper"><a href="aide/aeroport-paris-bourget.html" class="station-btn">Paris-Le Bourget</a></div>
-        </div>
-      </div>
+    <div class="feature-content">
+      <h4>Véhicules Haut de Gamme</h4>
+      <p>Limousines, minibus, berlines et véhicules d'exception avec équipements premium.</p>
     </div>
   </div>
-
-  <!-- Second Row -->
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; max-width: 1200px; margin: 0 auto;">
-    <!-- Card 4 -->
-    <div class="card-animated card-hover" style="flex: 1 1 300px; max-width: 350px; background: #2b2e35; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 15px rgba(246, 179, 2, 0.15); display: flex; flex-direction: column; height: 750px; color: #ffd255;">
-      <div style="height: 270px; background-image: url('assets/images/VANPIC.jpeg'); background-size: contain; background-repeat: no-repeat; background-position: top center;"></div>
-      <div style="flex-grow: 1; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: space-between;">
-        <div>
-          <h3 style="color: #ffc371;">Transport Taxi Van</h3><br>
-          <p>Voyagez facilement entre Paris et Disneyland grâce à notre service de navette confortable et fiable, pour toute la famille.</p>
-        </div>
-        <div style="margin-top: 15px; display: flex; flex-direction: column; gap: 8px;">
-          <div class="button-wrapper"><a href="service/taxi-van-paris.html" class="station-btn">VAN TPMR</a></div>
-          <div class="button-wrapper"><a href="service/VAN7Places.html" class="station-btn">VAN 7 Places </a></div>
-          <div class="button-wrapper"><a href="service/Sprinter.html" class="station-btn">Sprinter XXL</a></div>
-          <div class="button-wrapper"><a href="service/ClassV.html" class="station-btn">Class V</a></div>
-        </div>
-      </div>
+  <div class="feature-item">
+    <div class="feature-icon">
+      <i class="bi bi-person-badge-fill"></i>
     </div>
-
-    <!-- Card 5 -->
-    <div class="card-animated card-hover" style="flex: 1 1 300px; max-width: 350px; background: #2b2e35; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 15px rgba(246, 179, 2, 0.15); display: flex; flex-direction: column; height: 750px; color: #ffd255;">
-      <div style="height: 270px; background-image: url('assets/images/bbag.png'); background-size: contain; background-repeat: no-repeat; background-position: top center;"></div>
-      <div style="flex-grow: 1; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: space-between;">
-        <div>
-          <h3 style="color: #ffc371;">Les sieges bebe</h3><br>
-          <p>Solution de transport haut de gamme pour vos réunions, événements d'affaires ou déplacements corporate, avec ponctualité et élégance.</p>
-        </div>
-        <div style="margin-top: 15px; display: flex; flex-direction: column; gap: 8px;">
-          <div class="button-wrapper"><a href="service/sieges-enfants.html" class="station-btn">Sièges Bébé (Cosy)</a></div>
-          <div class="button-wrapper"><a href="service/sieges-enfants.html" class="station-btn">Sièges Enfant (4 ans)</a></div>
-          <div class="button-wrapper"><a href="service/sieges-enfants.html" class="station-btn">Sièges Enfant (6 ans)</a></div>
-          <div class="button-wrapper"><a href="service/sieges-enfants.html" class="station-btn">Sièges Rehausseurs (12 ans)</a></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Card 6 -->
-    <div class="card-animated card-hover" style="flex: 1 1 300px; max-width: 350px; background: #2b2e35; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 15px rgba(246, 179, 2, 0.15); display: flex; flex-direction: column; height: 750px; color: #ffd255;">
-      <div style="height: 270px; background-image: url('assets/images/gamvoi.jpg'); background-size: contain; background-repeat: no-repeat; background-position: top center;"></div>
-      <div style="flex-grow: 1; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: space-between;">
-        <div>
-          <h3 style="color: #ffc371;">Gamme de voiture</h3><br>
-          <p>Service dédié pour vos événements spéciaux : mariages, anniversaires, galas. Luxe, style et service personnalisé assurés.</p>
-        </div>
-        <div style="margin-top: 15px; display: flex; flex-direction: column; gap: 8px;">
-          <div class="button-wrapper"><a href="service/Berline.html" class="station-btn">Berline</a></div>
-          <div class="button-wrapper"><a href="service/eco.html" class="station-btn">Eco</a></div>
-          <div class="button-wrapper"><a href="service/SUV.html" class="station-btn">SUV</a></div>
-          <div class="button-wrapper"><a href="service/electrique.html" class="station-btn">electrique</a></div>
-        </div>
-      </div>
+    <div class="feature-content">
+      <h4>Chauffeurs Privés</h4>
+      <p>Professionnels expérimentés, discrets et ponctuels pour un service VIP sur mesure.</p>
     </div>
   </div>
-</section>
+  <div class="feature-item">
+    <div class="feature-icon">
+      <i class="bi bi-geo-alt-fill"></i>
+    </div>
+    <div class="feature-content">
+      <h4>Service Local à Paris</h4>
+      <p>Transferts aéroports, gares, hôtels ou événements dans tout Paris et sa région.</p>
+    </div>
+  </div>
+  <div class="feature-item">
+    <div class="feature-icon">
+      <i class="bi bi-calendar2-check-fill"></i>
+    </div>
+    <div class="feature-content">
+      <h4>Disponibilité 24h/7</h4>
+      <p>Réservations flexibles pour tous vos déplacements, de jour comme de nuit.</p>
+    </div>
+  </div>
+</div><!-- End Features Grid -->
+
+<div class="about-actions">
+  <a href="about.html" class="btn-discover">
+    <span>En savoir plus</span>
+    <i class="bi bi-arrow-right"></i>
+  </a>
+</div>
 
 
-  <!-- (Your CSS and JavaScript remain the same below...) -->
 
+            </div>
+          </div><!-- End About Content -->
 
+        </div>
 
+      </div>
 
+    </section><!-- /About Home Section -->
 
+    <!-- Rooms Showcase Section -->
+    <section id="rooms-showcase" class="rooms-showcase section">
 
- <style>
-  .station-btn {
-    color: #ffc371;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 8px 20px;
-    border: 2px solid #ffc371;
-    border-radius: 50px;
-    display: inline-block;
-    width: 250px;
-    text-align: center;
-    transition: all 0.3s ease-in-out;
-    background-color: #1f2229;
-  }
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Rooms</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
 
-  .station-btn:hover {
-    background-color: #ffd255;
-    color: #1f2229;
-    transform: scale(1.05);
-    box-shadow: 0 0 10px #f6b302aa;
-  }
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-  .button-wrapper {
-    text-align: center;
-  }
+        <div class="row">
+          <div class="col-lg-6 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="room-showcase-card featured">
+              <div class="room-hero-image">
+                <img src="assets/img/hotel/room-7.webp" alt="Presidential Suite" class="img-fluid">
+                <div class="room-badge">Popular Choice</div>
+                <div class="room-icons">
+                  <span class="icon-item"><i class="bi bi-people"></i> 4</span>
+                  <span class="icon-item"><i class="bi bi-house"></i> Suite</span>
+                  <span class="icon-item"><i class="bi bi-star"></i> Luxury</span>
+                </div>
+              </div>
+              <div class="room-info">
+                <div class="room-header">
+                  <h3>Luxury Presidential Suite</h3>
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+                <p class="room-excerpt">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis.</p>
+                <div class="room-amenities">
+                  <i class="bi bi-wifi"></i>
+                  <i class="bi bi-tv"></i>
+                  <i class="bi bi-cup-hot"></i>
+                  <i class="bi bi-snow"></i>
+                  <i class="bi bi-telephone"></i>
+                  <i class="bi bi-safe"></i>
+                </div>
+                <div class="room-bottom">
+                  <div class="pricing-info">
+                    <span class="price-tag">$549</span>
+                    <span class="price-label">per night</span>
+                  </div>
+                  <a href="room-details.html" class="explore-btn">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Featured Room Card -->
 
-  .scrolling-content {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    will-change: transform;
-  }
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-12 mb-4" data-aos="slide-left" data-aos-delay="250">
+                <div class="room-showcase-card compact">
+                  <div class="compact-image">
+                    <img src="assets/img/hotel/room-11.webp" alt="Executive Suite" class="img-fluid">
+                    <div class="quick-view">
+                      <i class="bi bi-eye"></i>
+                    </div>
+                  </div>
+                  <div class="compact-content">
+                    <h4>Executive Business Suite</h4>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <div class="compact-features">
+                      <span><i class="bi bi-briefcase"></i> Work Desk</span>
+                      <span><i class="bi bi-building"></i> City View</span>
+                    </div>
+                    <div class="compact-bottom">
+                      <span class="compact-price">$289<small>/night</small></span>
+                      <a href="room-details.html" class="quick-book">Reserve</a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End Compact Room Card -->
 
-  .card-animated {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 0.8s ease-in-out;
-  }
+              <div class="col-12 mb-4" data-aos="slide-left" data-aos-delay="300">
+                <div class="room-showcase-card compact">
+                  <div class="compact-image">
+                    <img src="assets/img/hotel/room-16.webp" alt="Ocean View" class="img-fluid">
+                    <div class="quick-view">
+                      <i class="bi bi-eye"></i>
+                    </div>
+                  </div>
+                  <div class="compact-content">
+                    <h4>Ocean View Double Room</h4>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                    <div class="compact-features">
+                      <span><i class="bi bi-water"></i> Ocean View</span>
+                      <span><i class="bi bi-tree"></i> Balcony</span>
+                    </div>
+                    <div class="compact-bottom">
+                      <span class="compact-price">$219<small>/night</small></span>
+                      <a href="room-details.html" class="quick-book">Reserve</a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End Compact Room Card -->
 
-  .card-animated.show {
-    opacity: 1;
-    transform: translateY(0);
-  }
+              <div class="col-12 mb-4" data-aos="slide-left" data-aos-delay="350">
+                <div class="room-showcase-card compact">
+                  <div class="compact-image">
+                    <img src="assets/img/hotel/room-9.webp" alt="Family Room" class="img-fluid">
+                    <div class="quick-view">
+                      <i class="bi bi-eye"></i>
+                    </div>
+                  </div>
+                  <div class="compact-content">
+                    <h4>Family Connecting Rooms</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    <div class="compact-features">
+                      <span><i class="bi bi-door-open"></i> Connected</span>
+                      <span><i class="bi bi-controller"></i> Entertainment</span>
+                    </div>
+                    <div class="compact-bottom">
+                      <span class="compact-price">$379<small>/night</small></span>
+                      <a href="room-details.html" class="quick-book">Reserve</a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End Compact Room Card -->
 
-  .card-hover {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
+            </div>
+          </div>
 
-  .card-hover:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 25px rgba(246, 179, 2, 0.25); /* Yellow glow */
-  }
-</style>
+        </div>
 
+        <div class="row mt-5">
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="room-showcase-card mini">
+              <div class="mini-image">
+                <img src="assets/img/hotel/room-13.webp" alt="Standard Room" class="img-fluid">
+                <div class="mini-overlay">
+                  <a href="room-details.html"><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="mini-content">
+                <h5>Classic Double Room</h5>
+                <div class="mini-price">$159<span>/night</span></div>
+                <div class="mini-amenities">
+                  <i class="bi bi-wifi"></i>
+                  <i class="bi bi-tv"></i>
+                  <i class="bi bi-telephone"></i>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Mini Room Card -->
 
-  <script>
-    const cards = document.querySelectorAll(".card-animated");
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("show");
-        } else {
-          entry.target.classList.remove("show");
-        }
-      });
-    }, { threshold: 0.1 });
-    cards.forEach(card => observer.observe(card));
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="450">
+            <div class="room-showcase-card mini">
+              <div class="mini-image">
+                <img src="assets/img/hotel/room-18.webp" alt="Deluxe Room" class="img-fluid">
+                <div class="mini-overlay">
+                  <a href="room-details.html"><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="mini-content">
+                <h5>Deluxe King Suite</h5>
+                <div class="mini-price">$199<span>/night</span></div>
+                <div class="mini-amenities">
+                  <i class="bi bi-wifi"></i>
+                  <i class="bi bi-cup-hot"></i>
+                  <i class="bi bi-snow"></i>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Mini Room Card -->
 
-    // Multiple scroll containers
-    document.querySelectorAll(".scroll-container").forEach((container, index) => {
-      const content = container.querySelector(".scrolling-buttons");
-      content.innerHTML += content.innerHTML;
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="room-showcase-card mini">
+              <div class="mini-image">
+                <img src="assets/img/hotel/room-4.webp" alt="Superior Room" class="img-fluid">
+                <div class="mini-overlay">
+                  <a href="room-details.html"><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="mini-content">
+                <h5>Superior Garden View</h5>
+                <div class="mini-price">$239<span>/night</span></div>
+                <div class="mini-amenities">
+                  <i class="bi bi-tree"></i>
+                  <i class="bi bi-tv"></i>
+                  <i class="bi bi-wifi"></i>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Mini Room Card -->
 
-      let pos = 0;
-      let isDragging = false;
-      let startY = 0;
-      let scrollStart = 0;
-      let animationFrame;
-      let dragMoved = false;
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="550">
+            <div class="room-showcase-card mini">
+              <div class="mini-image">
+                <img src="assets/img/hotel/room-20.webp" alt="Penthouse" class="img-fluid">
+                <div class="mini-overlay">
+                  <a href="room-details.html"><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="mini-content">
+                <h5>Penthouse Suite</h5>
+                <div class="mini-price">$899<span>/night</span></div>
+                <div class="mini-amenities">
+                  <i class="bi bi-award"></i>
+                  <i class="bi bi-house"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Mini Room Card -->
 
-      function autoScroll() {
-        pos += 0.5;
-        if (pos >= content.scrollHeight / 2) pos = 0;
-        content.style.transform = `translateY(-${pos}px)`;
-        animationFrame = requestAnimationFrame(autoScroll);
-      }
+        </div>
 
-      function pauseScroll() {
-        cancelAnimationFrame(animationFrame);
-      }
+        <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="600">
+          <a href="rooms.html" class="discover-all-btn">Discover All Accommodations</a>
+        </div>
 
-      function resumeScroll() {
-        autoScroll();
-      }
+      </div>
 
-      autoScroll();
+    </section><!-- /Rooms Showcase Section -->
 
-      function suppressClickAfterDrag() {
-        if (!dragMoved) return;
-        const buttons = container.querySelectorAll("a");
-        buttons.forEach(btn => {
-          btn.addEventListener("click", preventOnce, true);
-        });
-        dragMoved = false;
-      }
+<!-- Amenities Cards Section -->
+<section id="amenities-cards" class="amenities-cards section">
 
-      function preventOnce(e) {
-        e.stopImmediatePropagation();
-        e.preventDefault();
-        this.removeEventListener("click", preventOnce, true);
-      }
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Nos Prestations</h2>
+    <p>Découvrez les services exclusifs qui rendent vos déplacements inoubliables</p>
+  </div><!-- End Section Title -->
 
-      container.addEventListener("mousedown", (e) => {
-        isDragging = true;
-        dragMoved = false;
-        startY = e.clientY;
-        scrollStart = pos;
-        pauseScroll();
-        container.style.cursor = "grabbing";
-      });
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-      window.addEventListener("mouseup", () => {
-        if (isDragging) {
-          isDragging = false;
-          suppressClickAfterDrag();
-          resumeScroll();
-          container.style.cursor = "grab";
-        }
-      });
+    <div class="row gy-5">
 
-      window.addEventListener("mousemove", (e) => {
-        if (!isDragging) return;
-        const delta = e.clientY - startY;
-        if (Math.abs(delta) > 3) dragMoved = true;
-        pos = scrollStart - delta;
-        content.style.transform = `translateY(-${pos}px)`;
-      });
-
-      container.addEventListener("touchstart", (e) => {
-        isDragging = true;
-        dragMoved = false;
-        startY = e.touches[0].clientY;
-        scrollStart = pos;
-        pauseScroll();
-      });
-
-      container.addEventListener("touchmove", (e) => {
-        if (!isDragging) return;
-        const delta = e.touches[0].clientY - startY;
-        if (Math.abs(delta) > 3) dragMoved = true;
-        pos = scrollStart - delta;
-        content.style.transform = `translateY(-${pos}px)`;
-      });
-
-      container.addEventListener("touchend", () => {
-        if (isDragging) {
-          isDragging = false;
-          suppressClickAfterDrag();
-          resumeScroll();
-        }
-      });
-    });
-  </script>
-</section>
-
-
-<style>
-
-.card .row {
-  display: flex;
-  align-items: stretch; /* makes children stretch to same height */
-}
-
-.card .col-md-7 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* vertically center content if you want */
-}
-
-</style>
-
-<section class="py-5" style="background-color: #1f2229;">
-  <div class="container">
-    <div class="card border-0 shadow-lg rounded-4 overflow-hidden" style="background-color: #2b2e35;">
-      <div class="row g-0 flex-md-row flex-column-reverse" style="display:flex; align-items: stretch;">
-        
-        <div class="col-md-5 d-flex flex-column justify-content-center p-4 p-md-5">
-          <div class="card-body text-light">
-            <h2 class="card-title mb-3" style="color: #f6a403;">LES PARC D’ATTRACTIONS PARISIEN</h2>
-            <p class="card-text fs-5" style="color: #ffd255;">
-             TRANSFERTS PRIVÉS DEPUIS paris vers les parc attraction parisien
-            </p>
-            <div class="button-wrapper">
-              <a href="aide/disneyland.html" class="station-btn">Disneyland</a>
-              <br>
-              <a href="aide/Parc Asterix.html" class="station-btn">Parc Asterix</a>
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+        <div class="amenity-card">
+          <div class="card-header">
+            <div class="amenity-icon">
+              <i class="bi bi-car-front-fill"></i>
+            </div>
+            <h4>Flotte de Véhicules d'Exception</h4>
+          </div>
+          <div class="amenity-content">
+            <p>Limousines, berlines, minibus et bus haut de gamme pour tous vos besoins de transport privé.</p>
+            <div class="amenity-features">
+              <span class="feature-tag">Véhicules récents</span>
+              <span class="feature-tag">Équipements premium</span>
             </div>
           </div>
         </div>
+      </div><!-- End Amenity Item -->
 
-        <div class="col-md-7">
-          <img src="assets/images/parcnew1.jpeg" alt="Parc Astérix" class="img-fluid w-100 h-100" style="object-fit: cover; max-height: 500px;">
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="300">
+        <div class="amenity-card">
+          <div class="card-header">
+            <div class="amenity-icon">
+              <i class="bi bi-person-badge-fill"></i>
+            </div>
+            <h4>Chauffeurs Professionnels</h4>
+          </div>
+          <div class="amenity-content">
+            <p>Experts discrets, ponctuels et formés pour vous offrir un service VIP irréprochable.</p>
+            <div class="amenity-features">
+              <span class="feature-tag">Multilingues</span>
+              <span class="feature-tag">Tenue élégante</span>
+            </div>
+          </div>
         </div>
+      </div><!-- End Amenity Item -->
+
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="400">
+        <div class="amenity-card">
+          <div class="card-header">
+            <div class="amenity-icon">
+              <i class="bi bi-clock-history"></i>
+            </div>
+            <h4>Service 24h/7j</h4>
+          </div>
+          <div class="amenity-content">
+            <p>Réservation et assistance disponibles à tout moment pour tous vos déplacements urgents ou planifiés.</p>
+            <div class="amenity-features">
+              <span class="feature-tag">Flexibilité totale</span>
+              <span class="feature-tag">Prise en charge rapide</span>
+            </div>
+          </div>
+        </div>
+      </div><!-- End Amenity Item -->
+
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="500">
+        <div class="amenity-card">
+          <div class="card-header">
+            <div class="amenity-icon">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <h4>Couverture Paris & Île-de-France</h4>
+          </div>
+          <div class="amenity-content">
+            <p>Transferts aéroports, gares, événements privés et professionnels dans toute la région parisienne.</p>
+            <div class="amenity-features">
+              <span class="feature-tag">Transferts VIP</span>
+              <span class="feature-tag">Navettes dédiées</span>
+            </div>
+          </div>
+        </div>
+      </div><!-- End Amenity Item -->
+
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="600">
+        <div class="amenity-card">
+          <div class="card-header">
+            <div class="amenity-icon">
+              <i class="bi bi-shield-check"></i>
+            </div>
+            <h4>Sécurité & Confidentialité</h4>
+          </div>
+          <div class="amenity-content">
+            <p>Respect absolu de votre vie privée avec des chauffeurs formés à la discrétion la plus totale.</p>
+            <div class="amenity-features">
+              <span class="feature-tag">Protection renforcée</span>
+              <span class="feature-tag">Service confidentiel</span>
+            </div>
+          </div>
+        </div>
+      </div><!-- End Amenity Item -->
+
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="700">
+        <div class="amenity-card">
+          <div class="card-header">
+            <div class="amenity-icon">
+              <i class="bi bi-phone-fill"></i>
+            </div>
+            <h4>Conciergerie Personnalisée</h4>
+          </div>
+          <div class="amenity-content">
+            <p>Un interlocuteur dédié pour organiser vos trajets, gérer vos demandes spéciales et vos événements.</p>
+            <div class="amenity-features">
+              <span class="feature-tag">Support VIP</span>
+              <span class="feature-tag">Organisation sur-mesure</span>
+            </div>
+          </div>
+        </div>
+      </div><!-- End Amenity Item -->
+
+    </div>
+
+    <div class="amenities-cta text-center mt-5" data-aos="fade-up" data-aos-delay="800">
+      <div class="cta-content">
+        <h5>Vivez l’Excellence du Transport Privé</h5>
+        <p class="mb-4">Confiez-nous vos déplacements et profitez d’un service de chauffeur haut de gamme à Paris</p>
+        <a href="amenities.html" class="btn-explore">Découvrir tous nos services</a>
       </div>
     </div>
-  </div>
-</section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-<section class="reviews-section">
-  <h1 style="text-align: center; font-size: 48px; font-weight: 600; margin-bottom: 60px; color: #1f2229;">CE QUE NOS CLIENTS DISENT DE NOUS</h1>
- 
-  <div class="rating-title">EXCELLENT</div>
-  <div class="stars">
-    <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg" alt="star">
-    <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg" alt="star">
-    <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg" alt="star">
-    <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg" alt="star">
-    <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg" alt="star">
-  </div>
-  <p>Basée sur <strong>64 avis</strong></p>
- 
-
-  <!-- ✅ Swiper Slider -->
-  <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-
-
-
-
-
-
-      <div class="swiper-slide">
-  <div class="review-top">
-    <div class="avatar">
-      <img src="assets/images/gary.jpg" alt="Gary's avatar" style="width: 40px; height: 40px; object-fit: cover; border-radius: 50%;">
-    </div>
-    <div class="review-meta">
-      <div class="name">Gary</div>
-      <div>10/10/2024</div>
-      <div class="review-stars">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-      </div>
-    </div>
-  </div>
-  <div class="review-body">
-Ponctuel et professionnel. Notre voyage s’est déroulé sans aucun stress !
-  </div>
-</div>
-
-<div class="swiper-slide">
-  <div class="review-top">
-    <div class="avatar">
-      <img src="assets/images/2.jpg" alt="Sophia's avatar" style="width: 40px; height: 40px; object-fit: cover; border-radius: 50%;">
-    </div>
-    <div class="review-meta">
-      <div class="name">Sophia</div>
-      <div>09/15/2024</div>
-      <div class="review-stars">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-      </div>
-    </div>
-  </div>
-  <div class="review-body">
-Le van était impeccable et confortable. Notre chauffeur était très sympathique.
-  </div>
-</div>
-
-<div class="swiper-slide">
-  <div class="review-top">
-    <div class="avatar">
-      <img src="assets/images/8.webp" alt="Liam's avatar" style="width: 40px; height: 40px; object-fit: cover; border-radius: 50%;">
-    </div>
-    <div class="review-meta">
-      <div class="name">Liam</div>
-      <div>08/20/2024</div>
-      <div class="review-stars">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-      </div>
-    </div>
-  </div>
-  <div class="review-body">
-Service impressionnant ! Je réserverai à nouveau lors de notre prochaine visite.
-  </div>
-</div>
-
-<div class="swiper-slide">
-  <div class="review-top">
-    <div class="avatar">
-      <img src="assets/images/3.jpg" alt="Olivia's avatar" style="width: 40px; height: 40px; object-fit: cover; border-radius: 50%;">
-    </div>
-    <div class="review-meta">
-      <div class="name">Olivia</div>
-      <div>07/30/2024</div>
-      <div class="review-stars">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-      </div>
-    </div>
-  </div>
-  <div class="review-body">
-Trajet fiable et agréable. On ne pouvait pas rêver mieux.
-  </div>
-</div>
-
-<div class="swiper-slide">
-  <div class="review-top">
-    <div class="avatar">
-      <img src="assets/images/10.avif" alt="Noah's avatar" style="width: 40px; height: 40px; object-fit: cover; border-radius: 50%;">
-    </div>
-    <div class="review-meta">
-      <div class="name">Noah</div>
-      <div>06/18/2024</div>
-      <div class="review-stars">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-      </div>
-    </div>
-  </div>
-  <div class="review-body">
-Service client exceptionnel et véhicule très luxueux.
-  </div>
-</div>
-
-<div class="swiper-slide">
-  <div class="review-top">
-    <div class="avatar">
-      <img src="assets/images/11.jpeg" alt="Emma's avatar" style="width: 40px; height: 40px; object-fit: cover; border-radius: 50%;">
-    </div>
-    <div class="review-meta">
-      <div class="name">Emma</div>
-      <div>05/22/2024</div>
-      <div class="review-stars">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-      </div>
-    </div>
-  </div>
-  <div class="review-body">
-Le chauffeur est arrivé en avance et nous a aidés avec nos bagages. 10/10 !
-  </div>
-</div>
-
-<div class="swiper-slide">
-  <div class="review-top">
-    <div class="avatar">
-      <img src="assets/images/7.jpg" alt="James's avatar" style="width: 40px; height: 40px; object-fit: cover; border-radius: 50%;">
-    </div>
-    <div class="review-meta">
-      <div class="name">James</div>
-      <div>04/10/2024</div>
-      <div class="review-stars">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-      </div>
-    </div>
-  </div>
-  <div class="review-body">
-Un service de transport haut de gamme. On s’est sentis comme des VIP.
-  </div>
-</div>
-
-<div class="swiper-slide">
-  <div class="review-top">
-    <div class="avatar">
-      <img src="assets/images/4.jpg" alt="Ava's avatar" style="width: 40px; height: 40px; object-fit: cover; border-radius: 50%;">
-    </div>
-    <div class="review-meta">
-      <div class="name">Ava</div>
-      <div>03/01/2024</div>
-      <div class="review-stars">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-      </div>
-    </div>
-  </div>
-  <div class="review-body">
-Meilleur service de transfert que j’ai utilisé. Réservation facile et excellente communication.
-  </div>
-</div>
-
-<div class="swiper-slide">
-  <div class="review-top">
-    <div class="avatar">
-      <img src="assets/images/6.avif" alt="Lucas's avatar" style="width: 40px; height: 40px; object-fit: cover; border-radius: 50%;">
-    </div>
-    <div class="review-meta">
-      <div class="name">Lucas</div>
-      <div>02/12/2024</div>
-      <div class="review-stars">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-        <img src="https://cdn.trustindex.io/assets/platform/Google/star/f.svg">
-      </div>
-    </div>
-  </div>
-  <div class="review-body">
-Véhicule super propre et chauffeur très poli. Je recommande vivement !
-  </div>
-</div>
-
-
-
-
-
-
-
-
-    </div>
-
-    <!-- Navigation -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
   </div>
 
-<br><br><br><br>
+</section><!-- /Amenities Cards Section -->
 
 
-  <h1 style="text-align: center; font-size: 48px; font-weight: 600; margin-bottom: 60px; color: #1f2229;">NOUS A FAIS CONFIANCE</h1>
+<!-- Testimonials Section -->
+<section id="testimonials" class="testimonials section">
 
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Avis Clients</h2>
+    <p>Ce que nos clients VIP pensent de nos services de chauffeur privé à Paris</p>
+  </div><!-- End Section Title -->
 
-<!-- Vyntra Infinite Right-Only Continuous Slider -->
-<div class="vyntra-swiper">
-  <button class="vyntra-arrow vyntra-prev" aria-label="Previous Slide" hidden><</button>
-  <div class="vyntra-track-wrapper">
-    <div class="vyntra-track">
-      <!-- Slides and clones inserted dynamically -->
-    </div>
-  </div>
-  <button class="vyntra-arrow vyntra-next" aria-label="Next Slide" hidden>></button>
-</div>
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-<style>
-  .vyntra-swiper {
-    position: relative;
-    max-width: 800px;
-    margin: 2.5rem auto;
-    user-select: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    overflow: visible;
-  }
-
-  .vyntra-track-wrapper {
-    overflow: hidden;
-    border-radius: 14px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
-  }
-
-  .vyntra-track {
-    display: flex;
-    align-items: center;
-    will-change: transform;
-    padding: 20px 0;
-    cursor: grab;
-  }
-  .vyntra-track:active {
-    cursor: grabbing;
-  }
-
-  .vyntra-slide {
-    flex-shrink: 0;
-    margin: 0 10px;
-    border-radius: 14px;
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    filter: brightness(0.75);
-    transition: filter 0.3s ease;
-    background: #111;
-  }
-
-  .vyntra-slide img {
-    height: 140px;
-    width: auto;
-    display: block;
-    pointer-events: none;
-    user-select: none;
-  }
-
-  .vyntra-slide.active {
-    filter: brightness(1);
-    box-shadow: 0 12px 30px rgba(0,0,0,0.5);
-    z-index: 20;
-  }
-
-  /* Hide arrows, since continuous */
-  .vyntra-arrow {
-    display: none;
-  }
-
-@media (max-width: 480px) {
-  .swiper-slide {
-    width: 60% !important;
-    max-width: 60% !important;
-    padding-left: 0.8em;
-    padding-right: 0.8em;
-     padding: 1em;    
-  }
-}
-</style>
-
-<script>
-(() => {
-  const track = document.querySelector('.vyntra-track');
-  const slidesData = [
-    {src: 'assets/images/qatar.png', alt: 'Qatar'},
-    {src: 'assets/images/banque.jpeg', alt: 'Banque'},
-    {src: 'assets/images/EDF.jpeg', alt: 'EDF'},
-    {src: 'assets/images/HOTELS.jpeg', alt: 'Hotels'},
-    {src: 'assets/images/AIRFRANCE.jpeg', alt: 'Air France'}
-  ];
-
-  // Create slides elements and clones for seamless infinite scroll
-  function createSlide(data) {
-    const div = document.createElement('div');
-    div.classList.add('vyntra-slide');
-    const img = document.createElement('img');
-    img.src = data.src;
-    img.alt = data.alt;
-    div.appendChild(img);
-    return div;
-  }
-
-  // Insert slides and clones
-  function setupSlides() {
-    track.innerHTML = '';
-    slidesData.forEach(data => {
-      track.appendChild(createSlide(data));
-    });
-    // Clone all slides and append for seamless scroll
-    slidesData.forEach(data => {
-      const clone = createSlide(data);
-      clone.classList.add('clone');
-      track.appendChild(clone);
-    });
-  }
-
-  let slideWidthSum = 0;
-  let animationFrameId;
-  let currentTranslate = 0;
-  let speed = 0.6; // px per frame, tweak for speed
-
-  // Calculate total width of original slides (not clones)
-  function calcSlideWidthSum() {
-    const slides = Array.from(track.children);
-    let sum = 0;
-    for (let i = 0; i < slidesData.length; i++) {
-      const slide = slides[i];
-      sum += slide.offsetWidth + 20; // +20 for margin (10 left + 10 right)
-    }
-    return sum;
-  }
-
-  // Animation loop for continuous scrolling right->left (so images move left)
-  function animate() {
-    currentTranslate -= speed;
-    if (-currentTranslate >= slideWidthSum) {
-      // reset to 0 when passed all original slides width (loop)
-      currentTranslate = 0;
-    }
-    track.style.transform = `translateX(${currentTranslate}px)`;
-    animationFrameId = requestAnimationFrame(animate);
-  }
-
-  // Initialize slider
-  function init() {
-    setupSlides();
-
-    // Wait for images loaded to correctly calculate widths
-    const imgs = Array.from(track.querySelectorAll('img'));
-    let loadedCount = 0;
-    imgs.forEach(img => {
-      if (img.complete) {
-        loadedCount++;
-      } else {
-        img.addEventListener('load', () => {
-          loadedCount++;
-          if (loadedCount === imgs.length) {
-            afterImagesLoaded();
-          }
-        });
-        img.addEventListener('error', () => {
-          loadedCount++;
-          if (loadedCount === imgs.length) {
-            afterImagesLoaded();
-          }
-        });
+    <div class="testimonial-slider swiper-container">
+<script type="application/json" class="swiper-config">
+  {
+    "loop": true,
+    "speed": 600,
+    "autoplay": {
+      "delay": 4000,
+      "disableOnInteraction": false
+    },
+    "slidesPerView": 1,
+    "spaceBetween": 30,
+    "navigation": {
+      "nextEl": ".swiper-button-next",
+      "prevEl": ".swiper-button-prev"
+    },
+    "breakpoints": {
+      "768": {
+        "slidesPerView": 2
+      },
+      "992": {
+        "slidesPerView": 3
+      },
+      "1200": {
+        "slidesPerView": 4
+      },
+      "1400": {
+        "slidesPerView": 5
       }
-    });
-
-    // If all loaded already
-    if (loadedCount === imgs.length) {
-      afterImagesLoaded();
     }
   }
-
-  function afterImagesLoaded() {
-    slideWidthSum = calcSlideWidthSum();
-    currentTranslate = 0;
-    animate();
-
-    // Optional: pause on hover/drag
-    track.parentElement.addEventListener('mouseenter', () => cancelAnimationFrame(animationFrameId));
-    track.parentElement.addEventListener('mouseleave', () => animate());
-
-    // Drag support
-    let isDragging = false;
-    let dragStartX = 0;
-    let dragPrevTranslate = 0;
-
-    function getPositionX(e) {
-      return e.type.includes('mouse') ? e.pageX : e.touches[0].clientX;
-    }
-
-    track.addEventListener('mousedown', (e) => {
-      isDragging = true;
-      dragStartX = getPositionX(e);
-      dragPrevTranslate = currentTranslate;
-      cancelAnimationFrame(animationFrameId);
-      track.style.cursor = 'grabbing';
-      e.preventDefault();
-    });
-
-    track.addEventListener('touchstart', (e) => {
-      isDragging = true;
-      dragStartX = getPositionX(e);
-      dragPrevTranslate = currentTranslate;
-      cancelAnimationFrame(animationFrameId);
-    }, {passive: true});
-
-    window.addEventListener('mousemove', (e) => {
-      if(!isDragging) return;
-      const currentX = getPositionX(e);
-      const deltaX = currentX - dragStartX;
-      currentTranslate = dragPrevTranslate + deltaX;
-      track.style.transform = `translateX(${currentTranslate}px)`;
-    });
-
-    window.addEventListener('touchmove', (e) => {
-      if(!isDragging) return;
-      const currentX = getPositionX(e);
-      const deltaX = currentX - dragStartX;
-      currentTranslate = dragPrevTranslate + deltaX;
-      track.style.transform = `translateX(${currentTranslate}px)`;
-    }, {passive: true});
-
-    window.addEventListener('mouseup', () => {
-      if(isDragging) {
-        isDragging = false;
-        track.style.cursor = 'grab';
-        // Snap back if out of bounds
-        if(currentTranslate < -slideWidthSum) {
-          currentTranslate += slideWidthSum;
-        } else if(currentTranslate > 0) {
-          currentTranslate -= slideWidthSum;
-        }
-        animate();
-      }
-    });
-
-    window.addEventListener('touchend', () => {
-      if(isDragging) {
-        isDragging = false;
-        // Snap back if out of bounds
-        if(currentTranslate < -slideWidthSum) {
-          currentTranslate += slideWidthSum;
-        } else if(currentTranslate > 0) {
-          currentTranslate -= slideWidthSum;
-        }
-        animate();
-      }
-    });
-  }
-
-  init();
-})();
 </script>
 
 
+      <div class="swiper-wrapper">
 
+        <!-- Testimonial Slide 1 -->
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="200">
+            <div class="testimonial-header">
+              <img src="assets/img/person/person-f-12.webp" alt="Client" class="img-fluid" loading="lazy">
+              <div class="rating">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+            <div class="testimonial-body">
+              <p>Service impeccable et chauffeurs très professionnels. Mon transfert à l'aéroport s'est déroulé sans stress.</p>
+            </div>
+            <div class="testimonial-footer">
+              <h5>Élodie Moreau</h5>
+              <span>Entrepreneure</span>
+              <div class="quote-icon">
+                <i class="bi bi-chat-quote-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Testimonial Slide -->
 
+        <!-- Testimonial Slide 2 -->
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="300">
+            <div class="testimonial-header">
+              <img src="assets/img/person/person-m-8.webp" alt="Client" class="img-fluid" loading="lazy">
+              <div class="rating">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+            <div class="testimonial-body">
+              <p>La flotte est superbe et les chauffeurs sont toujours ponctuels. Parfait pour mes rendez-vous d’affaires.</p>
+            </div>
+            <div class="testimonial-footer">
+              <h5>Julien Lefèvre</h5>
+              <span>Consultant</span>
+              <div class="quote-icon">
+                <i class="bi bi-chat-quote-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Testimonial Slide -->
 
+        <!-- Testimonial Slide 3 -->
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="400">
+            <div class="testimonial-header">
+              <img src="assets/img/person/person-f-6.webp" alt="Client" class="img-fluid" loading="lazy">
+              <div class="rating">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+            <div class="testimonial-body">
+              <p>Expérience luxueuse et service personnalisé. Je recommande vivement pour tout événement privé.</p>
+            </div>
+            <div class="testimonial-footer">
+              <h5>Camille Dubois</h5>
+              <span>Organisatrice d'événements</span>
+              <div class="quote-icon">
+                <i class="bi bi-chat-quote-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Testimonial Slide -->
 
-<br>
+        <!-- Testimonial Slide 4 -->
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="500">
+            <div class="testimonial-header">
+              <img src="assets/img/person/person-m-12.webp" alt="Client" class="img-fluid" loading="lazy">
+              <div class="rating">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+            <div class="testimonial-body">
+              <p>Chauffeurs très professionnels, véhicules impeccables. Idéal pour mes déplacements professionnels à Paris.</p>
+            </div>
+            <div class="testimonial-footer">
+              <h5>Marc Renault</h5>
+              <span>Directeur Marketing</span>
+              <div class="quote-icon">
+                <i class="bi bi-chat-quote-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Testimonial Slide -->
 
+        <!-- Testimonial Slide 5 -->
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="zoom-in" data-aos-delay="600">
+            <div class="testimonial-header">
+              <img src="assets/img/person/person-f-10.webp" alt="Client" class="img-fluid" loading="lazy">
+              <div class="rating">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+            <div class="testimonial-body">
+              <p>Service de conciergerie et chauffeur impeccable. J’ai adoré la disponibilité et la discrétion.</p>
+            </div>
+            <div class="testimonial-footer">
+              <h5>Sophie Bernard</h5>
+              <span>Entrepreneure</span>
+              <div class="quote-icon">
+                <i class="bi bi-chat-quote-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Testimonial Slide -->
 
+      </div>
 
+      <div class="swiper-navigation">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
 
+    </div>
 
+  </div>
 
-
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #fff;
-      margin: 0;
-      padding: 0;
-      color: #222;
-      text-align: center;
-    }
-
-    .reviews-section {
-      
-      padding: 3em 1em;
-      max-width: 1200px;
-      margin: auto;
-      position: relative;  /* Ensure it can contain absolutely positioned buttons */
-      overflow: visible;   /* Allow overflow so arrows are visible */
-    }
-
-    .reviews-section h2 {
-      font-size: 2.5em;
-      margin-bottom: 0.3em;
-    }
-
-    .rating-title {
-      font-weight: bold;
-      font-size: 1.3em;
-      margin-bottom: 0.5em;
-    }
-
-    .stars img {
-      width: 24px;
-      margin: 0 2px;
-    }
-
-.swiper {
-  overflow: hidden; /* prevents extra slides from showing */
-  position: relative;
-  padding: 2em 0;
-}
-
-.swiper-wrapper {
-  display: flex;
-}
-* {
-  box-sizing: border-box;
-}
-.swiper-slide {
-  width: 100% !important;
-  flex-shrink: 0;
-  max-width: calc(25% - 22.5px); /* 4 slides on desktop */
-  background: #f9f9f9;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-  padding: 1.5em;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  box-sizing: border-box;
-}
-
-    .review-top {
-      display: flex;
-      align-items: center;
-      margin-bottom: 1em;
-    }
-
-    .avatar {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background-color: #ccc;
-      display: inline-block;
-      margin-right: 1em;
-      flex-shrink: 0;
-    }
-
-    .review-meta {
-      font-size: 0.9em;
-    }
-
-    .review-meta .name {
-      font-weight: bold;
-    }
-
-    .review-stars {
-      margin: 0.3em 0;
-    }
-
-    .review-stars img {
-      width: 20px;
-    }
-
-    .review-body {
-      font-size: 0.95em;
-      color: #333;
-      flex-grow: 1;
-    }
-.swiper-slide {
-  width: 100% !important;
-  flex-shrink: 0;
-  max-width: calc(25% - 22.5px); /* 4 slides on desktop */
-  background: #f9f9f9;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-  padding: 1.5em;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  box-sizing: border-box;
-}
-
-@media (max-width: 1024px) {
-  .swiper-slide {
-    max-width: calc(50% - 15px); /* 2 slides on tablets */
-    padding: 1em;
-  }
-  .swiper-button-next {
-    right: -40px;
-  }
-  .swiper-button-prev {
-    left: -40px;
-  }
-}
-@media (max-width: 768px) {
-  .custom-dropdown-button {
-    padding: 6px 8px;      /* smaller padding */
-    font-size: 14px;       /* smaller font size */
-    width: 40px;           /* fixed smaller width */
-    height: 50px;          /* fixed height */
-    justify-content: center;
-  }
-
-  .custom-dropdown-button img {
-    width: 20px;           /* smaller flag */
-    height: 14px;
-  }
-}
-
-@media (max-width: 768px) {
-  .swiper-slide {
-    max-width: 100%; /* 1 slide on mobile */
-    padding: 0.8em;
-  }
-  .swiper-button-next, 
-  .swiper-button-prev {
-    width: 30px;
-    height: 30px;
-    color: #555;
-  }
-  .swiper-button-next {
-    right: 5px;
-  }
-  .swiper-button-prev {
-    left: 5px;
-  }
-}
-
-  </style>
-
-
-
-
+</section><!-- /Testimonials Section -->
 <script>
-const swiper = new Swiper(".mySwiper", {
-  slidesPerView: 4,
-  spaceBetween: 30,
+  const swiper = new Swiper('.testimonial-slider.swiper-container', {
   loop: true,
+  speed: 600,
   autoplay: {
     delay: 4000,
     disableOnInteraction: false,
   },
+  slidesPerView: 1,
+  spaceBetween: 30,
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   },
-breakpoints: {
-  1024: {
-    slidesPerView: 4,
-    spaceBetween: 30,
+  breakpoints: {
+    768: { slidesPerView: 2 },
+    1200: { slidesPerView: 3 },
   },
-  768: {
-    slidesPerView: 2,
-    spaceBetween: 20,
-  },
-  480: {
-    slidesPerView: 1,
-    spaceBetween: 500,  // set spaceBetween to 0 on mobile for full slide width swipe
-  }
-}
 });
+
 </script>
 
-</section>
+<!-- Offer Cards Section -->
+<section id="offer-cards" class="offer-cards section">
 
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Offres Spéciales</h2>
+    <p>Profitez de nos services exclusifs de chauffeur privé à Paris à des tarifs avantageux</p>
+  </div><!-- End Section Title -->
 
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
 
+    <div class="row g-4">
 
+      <div class="col-lg-4 col-md-6">
+        <div class="offer-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="offer-badge">
+            <span class="discount">25% DE RÉDUCTION</span>
+          </div>
+          <div class="offer-image">
+            <img src="assets/img/hotel/showcase-3.webp" alt="Weekend Getaway" class="img-fluid">
+          </div>
+          <div class="offer-content">
+            <h3>Transfert Weekend VIP</h3>
+            <p>Profitez d’un transfert aéroport en limousine avec chauffeur privé, service premium et confort absolu pour votre weekend à Paris.</p>
+            <div class="offer-details">
+              <div class="price-info">
+                <span class="original-price">€299</span>
+                <span class="offer-price">€224</span>
+                <span class="per-night">par trajet</span>
+              </div>
+              <div class="validity">
+                <i class="bi bi-calendar-check"></i>
+                <span>Valable jusqu'au 31 Décembre 2024</span>
+              </div>
+            </div>
+            <a href="#" class="btn-book">Réserver Maintenant</a>
+          </div>
+        </div>
+      </div>
 
+      <div class="col-lg-4 col-md-6">
+        <div class="offer-card featured" data-aos="zoom-in" data-aos-delay="300">
+          <div class="offer-badge">
+            <span class="discount">MEILLEUR RAPPORT QUALITÉ-PRIX</span>
+          </div>
+          <div class="offer-image">
+            <img src="assets/img/hotel/showcase-7.webp" alt="Extended Stay Deal" class="img-fluid">
+          </div>
+          <div class="offer-content">
+            <h3>Location Longue Durée</h3>
+            <p>Bénéficiez d’une remise pour la location d’un véhicule avec chauffeur pour plusieurs jours. Idéal pour déplacements professionnels ou événements.</p>
+            <div class="offer-details">
+              <div class="price-info">
+                <span class="original-price">€189</span>
+                <span class="offer-price">€149</span>
+                <span class="per-night">par jour</span>
+              </div>
+              <div class="validity">
+                <i class="bi bi-calendar-check"></i>
+                <span>Réservez avant le 15 Janvier 2025</span>
+              </div>
+            </div>
+            <a href="#" class="btn-book">Réserver Aujourd’hui</a>
+          </div>
+        </div>
+      </div>
 
+      <div class="col-lg-4 col-md-6">
+        <div class="offer-card" data-aos="zoom-in" data-aos-delay="400">
+          <div class="offer-badge">
+            <span class="discount">RÉSERVATION ANTICIPÉE</span>
+          </div>
+          <div class="offer-image">
+            <img src="assets/img/hotel/showcase-11.webp" alt="Advance Booking" class="img-fluid">
+          </div>
+          <div class="offer-content">
+            <h3>Réservation Anticipée</h3>
+            <p>Réservez votre véhicule avec chauffeur au moins 30 jours à l’avance et bénéficiez de tarifs préférentiels et annulation gratuite sous 7 jours.</p>
+            <div class="offer-details">
+              <div class="price-info">
+                <span class="original-price">€249</span>
+                <span class="offer-price">€199</span>
+                <span class="per-night">par trajet</span>
+              </div>
+              <div class="validity">
+                <i class="bi bi-calendar-check"></i>
+                <span>Offre valable toute l'année</span>
+              </div>
+            </div>
+            <a href="#" class="btn-book">Réserver Tôt</a>
+          </div>
+        </div>
+      </div>
 
-
-
-
-
-
-
-
-
-  <h1 style="text-align: center; font-size: 48px; font-weight: 600; margin-bottom: 60px; color: #1f2229;">Quels sont les modes de paiement disponibles â bord ?</h1>
-
-
-
-<style>
-  .flip-container {
-    perspective: 1000px;
-    width: 350px;
-    height: 220px;
-    margin: auto;
-  }
-
-  .flip-card {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: transform 1s;
-    background: white;
-    border-radius: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 
-      0 10px 30px rgba(0, 0, 0, 0.1),
-      0 4px 10px rgba(0, 0, 0, 0.05);
-  }
-
-  .flip-inner {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: white;
-    border-radius: 20px;
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
-  }
-
-  .flip-inner img {
-    max-height: 90px;
-    max-width: 80%;
-    object-fit: contain;
-  }
-
-  .flip-inner.back {
-    transform: rotateY(180deg);
-  }
-
-  .flip-card.show-back {
-    transform: rotateY(180deg);
-  }
-</style>
-
-<div class="flip-container">
-  <div class="flip-card" id="flipCard">
-    <div class="flip-inner front"><img src="assets/images/visa.png" alt="Visa" /></div>
-    <div class="flip-inner back"><img src="assets/images/mastercard.png" alt="MasterCard" /></div>
-  </div>
-</div>
-
-<script>
-  const card = document.getElementById('flipCard');
-  const images = [
-    "assets/images/visa.png",
-    "assets/images/mastercard.png",
-    "assets/images/amex.png",
-    "assets/images/paypal.svg"
-  ];
-
-  let frontIdx = 0;
-  let backIdx = 1;
-  let showingBack = false;
-
-  // Initialize images
-  card.querySelector('.front img').src = images[frontIdx];
-  card.querySelector('.back img').src = images[backIdx];
-
-  setInterval(() => {
-    card.classList.toggle('show-back');
-    showingBack = !showingBack;
-
-    setTimeout(() => {
-      if (showingBack) {
-        // Update front image after showing back
-        frontIdx = (frontIdx + 2) % images.length;
-        card.querySelector('.front img').src = images[frontIdx];
-      } else {
-        // Update back image after showing front
-        backIdx = (backIdx + 2) % images.length;
-        card.querySelector('.back img').src = images[backIdx];
-      }
-    }, 1000); // wait for flip animation to finish (1s)
-  }, 2000); // flip every 3 seconds
-</script>
-
-  
-
-<br>
-
-
-
-
-
-
-<div class="container-fluid bg-dark py-4 px-3 mt-4 border-top" style="border-top: 3px solid #c8a45c;">
-  <div class="row align-items-center justify-content-center text-center">
-    <div class="col-lg-10">
-    <b>  <h2 class="text-light fw-bold mb-2" style="color: #c8a45c !important;">
-        Join Our VIP Club – Le Club Affaires
-      </h2></b>
-      <p class="text-light mb-3" style="opacity: 0.85;">
-        Unlock premium benefits, rewards, and exclusive access tailored for our elite members.
-      </p>
-      <a href="service/le-club-premium.html" class="py-2 d-block text-center fw-semibold text-decoration-none" style="color: #c8a45c; font-size: 1.2rem;">
-        Explore Le Club Affaires
-      </a>
     </div>
+
+    <div class="row mt-5">
+      <div class="col-12">
+        <div class="offer-banner" data-aos="fade-up" data-aos-delay="500">
+          <div class="row align-items-center">
+            <div class="col-lg-8">
+              <div class="banner-content">
+                <h2>Offre à Durée Limitée</h2>
+                <p>Profitez d’un service de chauffeur privé haut de gamme à Paris avec des tarifs exclusifs pour une durée limitée. Ne ratez pas cette opportunité.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+              <div class="banner-action">
+                <div class="countdown" data-count="2025/12/15">
+                  <div>
+                    <span class="count-days"></span>
+                    <label>Jours</label>
+                  </div>
+                  <div>
+                    <span class="count-hours"></span>
+                    <label>Heures</label>
+                  </div>
+                  <div>
+                    <span class="count-minutes"></span>
+                    <label>Minutes</label>
+                  </div>
+                </div>
+                <a href="#" class="btn-cta">Profiter de l'Offre</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
-</div>
+
+</section><!-- /Offer Cards Section -->
+
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section light-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+
+        <div class="row mt-5" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="feature-item text-center">
+              <div class="icon-wrapper">
+                <i class="bi bi-shield-check"></i>
+              </div>
+              <h5>Free Cancellation</h5>
+              <p>Cancel up to 24 hours before check-in</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="feature-item text-center">
+              <div class="icon-wrapper">
+                <i class="bi bi-award"></i>
+              </div>
+              <h5>Best Rate Guarantee</h5>
+              <p>We'll match any lower rate you find</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="feature-item text-center">
+              <div class="icon-wrapper">
+                <i class="bi bi-headset"></i>
+              </div>
+              <h5>24/7 Support</h5>
+              <p>Round-the-clock customer assistance</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="feature-item text-center">
+              <div class="icon-wrapper">
+                <i class="bi bi-lock"></i>
+              </div>
+              <h5>Secure Booking</h5>
+              <p>Your payment information is protected</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+
+
+    <!-- Location Cards Section -->
+    <section id="location-cards" class="location-cards section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Location &amp; Activities</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="location-card">
+              <img src="assets/img/hotel/location-1.webp" alt="Local Attractions" class="img-fluid location-image">
+              <div class="location-content">
+                <div class="location-icon">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <h4>Museums &amp; Culture</h4>
+                <p>Explore world-class museums and cultural landmarks just minutes from your doorstep. From contemporary art to historical exhibitions.</p>
+                <ul class="nearby-places">
+                  <li><i class="bi bi-dot"></i> Metropolitan Museum - 0.8 miles</li>
+                  <li><i class="bi bi-dot"></i> Art Gallery District - 1.2 miles</li>
+                  <li><i class="bi bi-dot"></i> Cultural Center - 0.5 miles</li>
+                </ul>
+                <a href="location.html" class="explore-btn">Explore Area</a>
+              </div>
+            </div>
+          </div><!-- End Location Card -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="location-card">
+              <img src="assets/img/hotel/location-2.webp" alt="Shopping District" class="img-fluid location-image">
+              <div class="location-content">
+                <div class="location-icon">
+                  <i class="bi bi-bag-check"></i>
+                </div>
+                <h4>Shopping &amp; Dining</h4>
+                <p>Indulge in premier shopping and culinary experiences. From boutique stores to award-winning restaurants in the entertainment district.</p>
+                <ul class="nearby-places">
+                  <li><i class="bi bi-dot"></i> Grand Shopping Mall - 0.3 miles</li>
+                  <li><i class="bi bi-dot"></i> Restaurant Row - 0.6 miles</li>
+                  <li><i class="bi bi-dot"></i> Night Market - 0.9 miles</li>
+                </ul>
+                <a href="location.html" class="explore-btn">View Restaurants</a>
+              </div>
+            </div>
+          </div><!-- End Location Card -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="location-card">
+              <img src="assets/img/hotel/location-10.webp" alt="Business District" class="img-fluid location-image">
+              <div class="location-content">
+                <div class="location-icon">
+                  <i class="bi bi-building"></i>
+                </div>
+                <h4>Business Hub</h4>
+                <p>Strategically located in the heart of the financial district. Perfect for business travelers with easy access to corporate centers.</p>
+                <ul class="nearby-places">
+                  <li><i class="bi bi-dot"></i> Convention Center - 0.4 miles</li>
+                  <li><i class="bi bi-dot"></i> Financial District - 0.7 miles</li>
+                  <li><i class="bi bi-dot"></i> Business Park - 1.1 miles</li>
+                </ul>
+                <a href="location.html" class="explore-btn">Business Services</a>
+              </div>
+            </div>
+          </div><!-- End Location Card -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Location Cards Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <section class="faq-section ftco-section">
     <div class="container">
         <div class="heading-section ftco-animate mb-5">
 
-              <h1 style="text-align: center; font-size: 48px; font-weight: 600; margin-bottom: 60px; color: #1f2229;">FAQs</h1>
+              <h1 style="text-align: center; font-size: 48px; font-weight: 600; margin-bottom: 60px; color: #987c5c;">FAQs</h1>
             <p>Trouvez les réponses aux questions couramment posées sur nos services de VTC.</p>
         </div>
         <div class="faq-container">
@@ -2401,35 +2126,39 @@ breakpoints: {
     <section id="carousel-section" class="ftco-section">
   <div class="container">
      <div class="card-container d-flex align-items-center">
-      <div class="icon-container"><svg height="37" width="37" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 20.75H6C5.27065 20.75 4.57118 20.4603 4.05546 19.9445C3.53973 19.4288 3.25 18.7293 3.25 18V6C3.25 5.27065 3.53973 4.57118 4.05546 4.05546C4.57118 3.53973 5.27065 3.25 6 3.25H14.86C15.0589 3.25 15.2497 3.32902 15.3903 3.46967C15.531 3.61032 15.61 3.80109 15.61 4C15.61 4.19891 15.531 4.38968 15.3903 4.53033C15.2497 4.67098 15.0589 4.75 14.86 4.75H6C5.66848 4.75 5.35054 4.8817 5.11612 5.11612C4.8817 5.35054 4.75 5.66848 4.75 6V18C4.75 18.3315 4.8817 18.6495 5.11612 18.8839C5.35054 19.1183 5.66848 19.25 6 19.25H18C18.3315 19.25 18.6495 19.1183 18.8839 18.8839C19.1183 18.6495 19.25 18.3315 19.25 18V10.29C19.25 10.0911 19.329 9.90032 19.4697 9.75967C19.6103 9.61902 19.8011 9.54 20 9.54C20.1989 9.54 20.3897 9.61902 20.5303 9.75967C20.671 9.90032 20.75 10.0911 20.75 10.29V18C20.75 18.7293 20.4603 19.4288 19.9445 19.9445C19.4288 20.4603 18.7293 20.75 18 20.75Z" fill="#f6a403"></path> <path d="M10.5 15.25C10.3071 15.2352 10.1276 15.1455 10 15L7.00001 12C6.93317 11.86 6.91136 11.7028 6.93759 11.5499C6.96382 11.3971 7.03679 11.2561 7.14646 11.1464C7.25613 11.0368 7.3971 10.9638 7.54996 10.9376C7.70282 10.9113 7.86006 10.9331 8.00001 11L10.47 13.47L19 4.99998C19.14 4.93314 19.2972 4.91133 19.4501 4.93756C19.6029 4.96379 19.7439 5.03676 19.8536 5.14643C19.9632 5.2561 20.0362 5.39707 20.0624 5.54993C20.0887 5.70279 20.0669 5.86003 20 5.99998L11 15C10.8724 15.1455 10.693 15.2352 10.5 15.25Z" fill="#f6a403"></path> </g></svg>
+      <div class="icon-container"><svg height="37" width="37" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 20.75H6C5.27065 20.75 4.57118 20.4603 4.05546 19.9445C3.53973 19.4288 3.25 18.7293 3.25 18V6C3.25 5.27065 3.53973 4.57118 4.05546 4.05546C4.57118 3.53973 5.27065 3.25 6 3.25H14.86C15.0589 3.25 15.2497 3.32902 15.3903 3.46967C15.531 3.61032 15.61 3.80109 15.61 4C15.61 4.19891 15.531 4.38968 15.3903 4.53033C15.2497 4.67098 15.0589 4.75 14.86 4.75H6C5.66848 4.75 5.35054 4.8817 5.11612 5.11612C4.8817 5.35054 4.75 5.66848 4.75 6V18C4.75 18.3315 4.8817 18.6495 5.11612 18.8839C5.35054 19.1183 5.66848 19.25 6 19.25H18C18.3315 19.25 18.6495 19.1183 18.8839 18.8839C19.1183 18.6495 19.25 18.3315 19.25 18V10.29C19.25 10.0911 19.329 9.90032 19.4697 9.75967C19.6103 9.61902 19.8011 9.54 20 9.54C20.1989 9.54 20.3897 9.61902 20.5303 9.75967C20.671 9.90032 20.75 10.0911 20.75 10.29V18C20.75 18.7293 20.4603 19.4288 19.9445 19.9445C19.4288 20.4603 18.7293 20.75 18 20.75Z" fill="white"></path> <path d="M10.5 15.25C10.3071 15.2352 10.1276 15.1455 10 15L7.00001 12C6.93317 11.86 6.91136 11.7028 6.93759 11.5499C6.96382 11.3971 7.03679 11.2561 7.14646 11.1464C7.25613 11.0368 7.3971 10.9638 7.54996 10.9376C7.70282 10.9113 7.86006 10.9331 8.00001 11L10.47 13.47L19 4.99998C19.14 4.93314 19.2972 4.91133 19.4501 4.93756C19.6029 4.96379 19.7439 5.03676 19.8536 5.14643C19.9632 5.2561 20.0362 5.39707 20.0624 5.54993C20.0887 5.70279 20.0669 5.86003 20 5.99998L11 15C10.8724 15.1455 10.693 15.2352 10.5 15.25Z" fill="white"></path> </g></svg>
 </div>
       <div class="text-container">
-        <p class="title">TARIFS CLAIRS</p>
-        <p class="subtitle">Aucune surprise, des prix transparents</p>
+       <p class="title" style="color: white;">TARIFS CLAIRS</p>
+
+        <p class="subtitle" style="color: white;">Aucune surprise, des prix transparents</p>
       </div>
     </div>
     <div class="card-container d-flex align-items-center">
-      <div class="icon-container"><svg height="37" width="37" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 20.75H6C5.27065 20.75 4.57118 20.4603 4.05546 19.9445C3.53973 19.4288 3.25 18.7293 3.25 18V6C3.25 5.27065 3.53973 4.57118 4.05546 4.05546C4.57118 3.53973 5.27065 3.25 6 3.25H14.86C15.0589 3.25 15.2497 3.32902 15.3903 3.46967C15.531 3.61032 15.61 3.80109 15.61 4C15.61 4.19891 15.531 4.38968 15.3903 4.53033C15.2497 4.67098 15.0589 4.75 14.86 4.75H6C5.66848 4.75 5.35054 4.8817 5.11612 5.11612C4.8817 5.35054 4.75 5.66848 4.75 6V18C4.75 18.3315 4.8817 18.6495 5.11612 18.8839C5.35054 19.1183 5.66848 19.25 6 19.25H18C18.3315 19.25 18.6495 19.1183 18.8839 18.8839C19.1183 18.6495 19.25 18.3315 19.25 18V10.29C19.25 10.0911 19.329 9.90032 19.4697 9.75967C19.6103 9.61902 19.8011 9.54 20 9.54C20.1989 9.54 20.3897 9.61902 20.5303 9.75967C20.671 9.90032 20.75 10.0911 20.75 10.29V18C20.75 18.7293 20.4603 19.4288 19.9445 19.9445C19.4288 20.4603 18.7293 20.75 18 20.75Z" fill="#f6a403"></path> <path d="M10.5 15.25C10.3071 15.2352 10.1276 15.1455 10 15L7.00001 12C6.93317 11.86 6.91136 11.7028 6.93759 11.5499C6.96382 11.3971 7.03679 11.2561 7.14646 11.1464C7.25613 11.0368 7.3971 10.9638 7.54996 10.9376C7.70282 10.9113 7.86006 10.9331 8.00001 11L10.47 13.47L19 4.99998C19.14 4.93314 19.2972 4.91133 19.4501 4.93756C19.6029 4.96379 19.7439 5.03676 19.8536 5.14643C19.9632 5.2561 20.0362 5.39707 20.0624 5.54993C20.0887 5.70279 20.0669 5.86003 20 5.99998L11 15C10.8724 15.1455 10.693 15.2352 10.5 15.25Z" fill="#f6a403"></path> </g></svg>
+      <div class="icon-container"><svg height="37" width="37" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 20.75H6C5.27065 20.75 4.57118 20.4603 4.05546 19.9445C3.53973 19.4288 3.25 18.7293 3.25 18V6C3.25 5.27065 3.53973 4.57118 4.05546 4.05546C4.57118 3.53973 5.27065 3.25 6 3.25H14.86C15.0589 3.25 15.2497 3.32902 15.3903 3.46967C15.531 3.61032 15.61 3.80109 15.61 4C15.61 4.19891 15.531 4.38968 15.3903 4.53033C15.2497 4.67098 15.0589 4.75 14.86 4.75H6C5.66848 4.75 5.35054 4.8817 5.11612 5.11612C4.8817 5.35054 4.75 5.66848 4.75 6V18C4.75 18.3315 4.8817 18.6495 5.11612 18.8839C5.35054 19.1183 5.66848 19.25 6 19.25H18C18.3315 19.25 18.6495 19.1183 18.8839 18.8839C19.1183 18.6495 19.25 18.3315 19.25 18V10.29C19.25 10.0911 19.329 9.90032 19.4697 9.75967C19.6103 9.61902 19.8011 9.54 20 9.54C20.1989 9.54 20.3897 9.61902 20.5303 9.75967C20.671 9.90032 20.75 10.0911 20.75 10.29V18C20.75 18.7293 20.4603 19.4288 19.9445 19.9445C19.4288 20.4603 18.7293 20.75 18 20.75Z" fill="white"></path> <path d="M10.5 15.25C10.3071 15.2352 10.1276 15.1455 10 15L7.00001 12C6.93317 11.86 6.91136 11.7028 6.93759 11.5499C6.96382 11.3971 7.03679 11.2561 7.14646 11.1464C7.25613 11.0368 7.3971 10.9638 7.54996 10.9376C7.70282 10.9113 7.86006 10.9331 8.00001 11L10.47 13.47L19 4.99998C19.14 4.93314 19.2972 4.91133 19.4501 4.93756C19.6029 4.96379 19.7439 5.03676 19.8536 5.14643C19.9632 5.2561 20.0362 5.39707 20.0624 5.54993C20.0887 5.70279 20.0669 5.86003 20 5.99998L11 15C10.8724 15.1455 10.693 15.2352 10.5 15.25Z" fill="white"></path> </g></svg>
 </div>
       <div class="text-container">
-        <p class="title">RESERVATION SANS FRAIS</p>
-        <p class="subtitle">Réservez sans frais supplémentaires</p>
+        <p class="title" style="color: white;">RESERVATION SANS FRAIS</p>
+
+        <p class="subtitle" style="color: white;">Réservez sans frais supplémentaires</p>
       </div>
     </div>
     <div class="card-container d-flex align-items-center">
-      <div class="icon-container"><svg height="37" width="37" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 20.75H6C5.27065 20.75 4.57118 20.4603 4.05546 19.9445C3.53973 19.4288 3.25 18.7293 3.25 18V6C3.25 5.27065 3.53973 4.57118 4.05546 4.05546C4.57118 3.53973 5.27065 3.25 6 3.25H14.86C15.0589 3.25 15.2497 3.32902 15.3903 3.46967C15.531 3.61032 15.61 3.80109 15.61 4C15.61 4.19891 15.531 4.38968 15.3903 4.53033C15.2497 4.67098 15.0589 4.75 14.86 4.75H6C5.66848 4.75 5.35054 4.8817 5.11612 5.11612C4.8817 5.35054 4.75 5.66848 4.75 6V18C4.75 18.3315 4.8817 18.6495 5.11612 18.8839C5.35054 19.1183 5.66848 19.25 6 19.25H18C18.3315 19.25 18.6495 19.1183 18.8839 18.8839C19.1183 18.6495 19.25 18.3315 19.25 18V10.29C19.25 10.0911 19.329 9.90032 19.4697 9.75967C19.6103 9.61902 19.8011 9.54 20 9.54C20.1989 9.54 20.3897 9.61902 20.5303 9.75967C20.671 9.90032 20.75 10.0911 20.75 10.29V18C20.75 18.7293 20.4603 19.4288 19.9445 19.9445C19.4288 20.4603 18.7293 20.75 18 20.75Z" fill="#f6a403"></path> <path d="M10.5 15.25C10.3071 15.2352 10.1276 15.1455 10 15L7.00001 12C6.93317 11.86 6.91136 11.7028 6.93759 11.5499C6.96382 11.3971 7.03679 11.2561 7.14646 11.1464C7.25613 11.0368 7.3971 10.9638 7.54996 10.9376C7.70282 10.9113 7.86006 10.9331 8.00001 11L10.47 13.47L19 4.99998C19.14 4.93314 19.2972 4.91133 19.4501 4.93756C19.6029 4.96379 19.7439 5.03676 19.8536 5.14643C19.9632 5.2561 20.0362 5.39707 20.0624 5.54993C20.0887 5.70279 20.0669 5.86003 20 5.99998L11 15C10.8724 15.1455 10.693 15.2352 10.5 15.25Z" fill="#f6a403"></path> </g></svg>
+      <div class="icon-container"><svg height="37" width="37" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 20.75H6C5.27065 20.75 4.57118 20.4603 4.05546 19.9445C3.53973 19.4288 3.25 18.7293 3.25 18V6C3.25 5.27065 3.53973 4.57118 4.05546 4.05546C4.57118 3.53973 5.27065 3.25 6 3.25H14.86C15.0589 3.25 15.2497 3.32902 15.3903 3.46967C15.531 3.61032 15.61 3.80109 15.61 4C15.61 4.19891 15.531 4.38968 15.3903 4.53033C15.2497 4.67098 15.0589 4.75 14.86 4.75H6C5.66848 4.75 5.35054 4.8817 5.11612 5.11612C4.8817 5.35054 4.75 5.66848 4.75 6V18C4.75 18.3315 4.8817 18.6495 5.11612 18.8839C5.35054 19.1183 5.66848 19.25 6 19.25H18C18.3315 19.25 18.6495 19.1183 18.8839 18.8839C19.1183 18.6495 19.25 18.3315 19.25 18V10.29C19.25 10.0911 19.329 9.90032 19.4697 9.75967C19.6103 9.61902 19.8011 9.54 20 9.54C20.1989 9.54 20.3897 9.61902 20.5303 9.75967C20.671 9.90032 20.75 10.0911 20.75 10.29V18C20.75 18.7293 20.4603 19.4288 19.9445 19.9445C19.4288 20.4603 18.7293 20.75 18 20.75Z" fill="white"></path> <path d="M10.5 15.25C10.3071 15.2352 10.1276 15.1455 10 15L7.00001 12C6.93317 11.86 6.91136 11.7028 6.93759 11.5499C6.96382 11.3971 7.03679 11.2561 7.14646 11.1464C7.25613 11.0368 7.3971 10.9638 7.54996 10.9376C7.70282 10.9113 7.86006 10.9331 8.00001 11L10.47 13.47L19 4.99998C19.14 4.93314 19.2972 4.91133 19.4501 4.93756C19.6029 4.96379 19.7439 5.03676 19.8536 5.14643C19.9632 5.2561 20.0362 5.39707 20.0624 5.54993C20.0887 5.70279 20.0669 5.86003 20 5.99998L11 15C10.8724 15.1455 10.693 15.2352 10.5 15.25Z" fill="white"></path> </g></svg>
 </div>
       <div class="text-container">
-        <p class="title">ANNULATION GRATUITE</p>
-        <p class="subtitle">Jusqu'à 2 heures avant le départ</p>
+        <p class="title" style="color: white;">ANNULATION GRATUITE</p>
+
+        <p class="subtitle" style="color: white;">Jusqu'à 2 heures avant le départ</p>
       </div>
     </div>
     <div class="card-container d-flex align-items-center">
-      <div class="icon-container"><svg height="37" width="37" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 20.75H6C5.27065 20.75 4.57118 20.4603 4.05546 19.9445C3.53973 19.4288 3.25 18.7293 3.25 18V6C3.25 5.27065 3.53973 4.57118 4.05546 4.05546C4.57118 3.53973 5.27065 3.25 6 3.25H14.86C15.0589 3.25 15.2497 3.32902 15.3903 3.46967C15.531 3.61032 15.61 3.80109 15.61 4C15.61 4.19891 15.531 4.38968 15.3903 4.53033C15.2497 4.67098 15.0589 4.75 14.86 4.75H6C5.66848 4.75 5.35054 4.8817 5.11612 5.11612C4.8817 5.35054 4.75 5.66848 4.75 6V18C4.75 18.3315 4.8817 18.6495 5.11612 18.8839C5.35054 19.1183 5.66848 19.25 6 19.25H18C18.3315 19.25 18.6495 19.1183 18.8839 18.8839C19.1183 18.6495 19.25 18.3315 19.25 18V10.29C19.25 10.0911 19.329 9.90032 19.4697 9.75967C19.6103 9.61902 19.8011 9.54 20 9.54C20.1989 9.54 20.3897 9.61902 20.5303 9.75967C20.671 9.90032 20.75 10.0911 20.75 10.29V18C20.75 18.7293 20.4603 19.4288 19.9445 19.9445C19.4288 20.4603 18.7293 20.75 18 20.75Z" fill="#f6a403"></path> <path d="M10.5 15.25C10.3071 15.2352 10.1276 15.1455 10 15L7.00001 12C6.93317 11.86 6.91136 11.7028 6.93759 11.5499C6.96382 11.3971 7.03679 11.2561 7.14646 11.1464C7.25613 11.0368 7.3971 10.9638 7.54996 10.9376C7.70282 10.9113 7.86006 10.9331 8.00001 11L10.47 13.47L19 4.99998C19.14 4.93314 19.2972 4.91133 19.4501 4.93756C19.6029 4.96379 19.7439 5.03676 19.8536 5.14643C19.9632 5.2561 20.0362 5.39707 20.0624 5.54993C20.0887 5.70279 20.0669 5.86003 20 5.99998L11 15C10.8724 15.1455 10.693 15.2352 10.5 15.25Z" fill="#f6a403"></path> </g></svg>
+      <div class="icon-container"><svg height="37" width="37" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 20.75H6C5.27065 20.75 4.57118 20.4603 4.05546 19.9445C3.53973 19.4288 3.25 18.7293 3.25 18V6C3.25 5.27065 3.53973 4.57118 4.05546 4.05546C4.57118 3.53973 5.27065 3.25 6 3.25H14.86C15.0589 3.25 15.2497 3.32902 15.3903 3.46967C15.531 3.61032 15.61 3.80109 15.61 4C15.61 4.19891 15.531 4.38968 15.3903 4.53033C15.2497 4.67098 15.0589 4.75 14.86 4.75H6C5.66848 4.75 5.35054 4.8817 5.11612 5.11612C4.8817 5.35054 4.75 5.66848 4.75 6V18C4.75 18.3315 4.8817 18.6495 5.11612 18.8839C5.35054 19.1183 5.66848 19.25 6 19.25H18C18.3315 19.25 18.6495 19.1183 18.8839 18.8839C19.1183 18.6495 19.25 18.3315 19.25 18V10.29C19.25 10.0911 19.329 9.90032 19.4697 9.75967C19.6103 9.61902 19.8011 9.54 20 9.54C20.1989 9.54 20.3897 9.61902 20.5303 9.75967C20.671 9.90032 20.75 10.0911 20.75 10.29V18C20.75 18.7293 20.4603 19.4288 19.9445 19.9445C19.4288 20.4603 18.7293 20.75 18 20.75Z" fill="white"></path> <path d="M10.5 15.25C10.3071 15.2352 10.1276 15.1455 10 15L7.00001 12C6.93317 11.86 6.91136 11.7028 6.93759 11.5499C6.96382 11.3971 7.03679 11.2561 7.14646 11.1464C7.25613 11.0368 7.3971 10.9638 7.54996 10.9376C7.70282 10.9113 7.86006 10.9331 8.00001 11L10.47 13.47L19 4.99998C19.14 4.93314 19.2972 4.91133 19.4501 4.93756C19.6029 4.96379 19.7439 5.03676 19.8536 5.14643C19.9632 5.2561 20.0362 5.39707 20.0624 5.54993C20.0887 5.70279 20.0669 5.86003 20 5.99998L11 15C10.8724 15.1455 10.693 15.2352 10.5 15.25Z" fill="white"></path> </g></svg>
 </div>
       <div class="text-container">
-        <p class="title">PAIEMENT SIMPLIFIÉ</p>
-        <p class="subtitle">Réservez et payez à bord du véhicule.</p>
+       <p class="title" style="color: white;">PAIEMENT SIMPLIFIÉ</p>
+
+        <p class="subtitle" style="color: white;">Réservez et payez à bord du véhicule.</p>
       </div>
     </div>
   </div>

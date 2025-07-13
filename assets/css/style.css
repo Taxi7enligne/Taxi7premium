@@ -1,13 +1,13 @@
 :root {
-  --primary: #f6a403;       /* Bright Taxi Yellow */
-  --secondary: #3c3f46;     /* Dark Grey Accent */
-  --grey: #2b2e35;          /* Darker Grey Background */
+  --primary: #987c5c;       /* Bright Taxi Yellow */
+  --secondary: #987c5c;     /* Dark Grey Accent */
+  --grey: #987c5c;          /* Darker Grey Background */
   --grey-text: #a0a0a0;     /* Soft grey for secondary text */
-  --light: #ffd255;         /* Soft Yellow highlight */
-  --dark: #1f2229;          /* Main dark background */
-  --gold: #f6b302;          /* Gold highlight */
-  --dark-bg: #1f2229;       /* Dark background for sections */
-  --darker-bg: #141414;     /* Very dark for footer or overlays */
+  --light: #987c5c;         /* Soft Yellow highlight */
+  --dark: #201c14;          /* Main dark background */
+  --gold: #987c5c;          /* Gold highlight */
+  --dark-bg: #987c5c;       /* Dark background for sections */
+  --darker-bg: #987c5c;     /* Very dark for footer or overlays */
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
