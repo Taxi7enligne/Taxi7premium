@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="fr">
   
@@ -8,6 +6,8 @@
 <head>
     <title>Taxi Paris | Réservez un Taxi en Île-de-France 24/7Taxi7 Service</title>
     <meta name="description" content="Effectuer une réservation de taxi en ligne ou par téléphone gratuitement au numéro suivant : 01 84 80 79 63">
+    <meta name="description" content="Fast and reliable taxi services in Paris by Taxi 7 Express." />
+
     <meta name="keywords" content="Taxi en ligne, Réservation taxi, Taxi rapide Paris, Service taxi 24/7,Taxi paris, taxi g7, taxi g7 paris, taxi g7 téléphone gratuit">
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -30,7 +30,20 @@
 <!-- Google reCaptcha -->
 <script src="../www.google.com/recaptcha/api.js"></script>
 
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/drift-zoom/drift-basic.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
  <!-- Google tag (gtag.js) -->
  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16909657112"></script>
@@ -156,16 +169,17 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    border: 1px solid #3c3f46;
-    background: #2b2e35;
-    color: #ffd255;
+    border: 1px solid #373632;
+    background: #373632;
+    color: #ababab;
     border-radius: 5px;
     transition: 0.3s ease;
   }
 
   .custom-dropdown-button:hover {
-    background-color: #3c3f46;
-    border-color: #ffc371;
+    background-color: #ababab;
+    border-color: #c50d27;
+    color: #373632;
   }
 
   .custom-dropdown-button img {
@@ -177,8 +191,8 @@
   .custom-dropdown-list {
     display: none;
     position: absolute;
-    background-color: #2b2e35;
-    border: 1px solid #3c3f46;
+    background-color: #373632;
+    border: 1px solid #373632;
     min-width: 200px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.3);
     z-index: 1000;
@@ -190,13 +204,13 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    color: #ffd255;
+    color: #ababab;
     transition: 0.3s;
   }
 
   .custom-dropdown-list div:hover {
-    background-color: #ffc371;
-    color: #1f2229;
+    background-color: #c50d27;
+    color: #ffffff;
   }
 
   .custom-dropdown-list img {
@@ -205,6 +219,7 @@
     margin-right: 8px;
   }
 </style>
+
 
 
 <script>
@@ -344,6 +359,7 @@
     }
   }
 </style>
+
 
 <!-- Language dropdown -->
 <div class="custom-dropdown mt-3">
@@ -506,7 +522,6 @@
 
 
 
-
 <a 
   onclick="return gtag_report_conversion('tel:+33184807963');" 
   href="tel:+33184807963" 
@@ -577,7 +592,7 @@
 <style>
 .sepbetween {
   height: 2px;
-  background-color: #ffc371; /* Taxi accent yellow */
+  background-color: #201c14; /* Taxi accent yellow */
   margin: 1rem 0;
   border-radius: 2px;
   box-shadow: 0 0 4px #f6b30288;
@@ -598,76 +613,93 @@
 
 
   
-          <h1 class="mb-4"><b></b></h1>
-          <ul class="container-benefits">
-            <div class="sepbetween"></div>
-                        <li><svg height="37" width="37" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 20.75H6C5.27065 20.75 4.57118 20.4603 4.05546 19.9445C3.53973 19.4288 3.25 18.7293 3.25 18V6C3.25 5.27065 3.53973 4.57118 4.05546 4.05546C4.57118 3.53973 5.27065 3.25 6 3.25H14.86C15.0589 3.25 15.2497 3.32902 15.3903 3.46967C15.531 3.61032 15.61 3.80109 15.61 4C15.61 4.19891 15.531 4.38968 15.3903 4.53033C15.2497 4.67098 15.0589 4.75 14.86 4.75H6C5.66848 4.75 5.35054 4.8817 5.11612 5.11612C4.8817 5.35054 4.75 5.66848 4.75 6V18C4.75 18.3315 4.8817 18.6495 5.11612 18.8839C5.35054 19.1183 5.66848 19.25 6 19.25H18C18.3315 19.25 18.6495 19.1183 18.8839 18.8839C19.1183 18.6495 19.25 18.3315 19.25 18V10.29C19.25 10.0911 19.329 9.90032 19.4697 9.75967C19.6103 9.61902 19.8011 9.54 20 9.54C20.1989 9.54 20.3897 9.61902 20.5303 9.75967C20.671 9.90032 20.75 10.0911 20.75 10.29V18C20.75 18.7293 20.4603 19.4288 19.9445 19.9445C19.4288 20.4603 18.7293 20.75 18 20.75Z" fill="#1f2229"></path> <path d="M10.5 15.25C10.3071 15.2352 10.1276 15.1455 10 15L7.00001 12C6.93317 11.86 6.91136 11.7028 6.93759 11.5499C6.96382 11.3971 7.03679 11.2561 7.14646 11.1464C7.25613 11.0368 7.3971 10.9638 7.54996 10.9376C7.70282 10.9113 7.86006 10.9331 8.00001 11L10.47 13.47L19 4.99998C19.14 4.93314 19.2972 4.91133 19.4501 4.93756C19.6029 4.96379 19.7439 5.03676 19.8536 5.14643C19.9632 5.2561 20.0362 5.39707 20.0624 5.54993C20.0887 5.70279 20.0669 5.86003 20 5.99998L11 15C10.8724 15.1455 10.693 15.2352 10.5 15.25Z" fill="#000000"></path> </g></svg>
-<p>De service Premium taxi</p></li>
-            <li><svg height="37" width="37" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 20.75H6C5.27065 20.75 4.57118 20.4603 4.05546 19.9445C3.53973 19.4288 3.25 18.7293 3.25 18V6C3.25 5.27065 3.53973 4.57118 4.05546 4.05546C4.57118 3.53973 5.27065 3.25 6 3.25H14.86C15.0589 3.25 15.2497 3.32902 15.3903 3.46967C15.531 3.61032 15.61 3.80109 15.61 4C15.61 4.19891 15.531 4.38968 15.3903 4.53033C15.2497 4.67098 15.0589 4.75 14.86 4.75H6C5.66848 4.75 5.35054 4.8817 5.11612 5.11612C4.8817 5.35054 4.75 5.66848 4.75 6V18C4.75 18.3315 4.8817 18.6495 5.11612 18.8839C5.35054 19.1183 5.66848 19.25 6 19.25H18C18.3315 19.25 18.6495 19.1183 18.8839 18.8839C19.1183 18.6495 19.25 18.3315 19.25 18V10.29C19.25 10.0911 19.329 9.90032 19.4697 9.75967C19.6103 9.61902 19.8011 9.54 20 9.54C20.1989 9.54 20.3897 9.61902 20.5303 9.75967C20.671 9.90032 20.75 10.0911 20.75 10.29V18C20.75 18.7293 20.4603 19.4288 19.9445 19.9445C19.4288 20.4603 18.7293 20.75 18 20.75Z" fill="#1f2229"></path> <path d="M10.5 15.25C10.3071 15.2352 10.1276 15.1455 10 15L7.00001 12C6.93317 11.86 6.91136 11.7028 6.93759 11.5499C6.96382 11.3971 7.03679 11.2561 7.14646 11.1464C7.25613 11.0368 7.3971 10.9638 7.54996 10.9376C7.70282 10.9113 7.86006 10.9331 8.00001 11L10.47 13.47L19 4.99998C19.14 4.93314 19.2972 4.91133 19.4501 4.93756C19.6029 4.96379 19.7439 5.03676 19.8536 5.14643C19.9632 5.2561 20.0362 5.39707 20.0624 5.54993C20.0887 5.70279 20.0669 5.86003 20 5.99998L11 15C10.8724 15.1455 10.693 15.2352 10.5 15.25Z" fill="#000000"></path> </g></svg>
-<p>Réservation facile et instantanée</p></li>
-            <li><svg height="37" width="37" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 20.75H6C5.27065 20.75 4.57118 20.4603 4.05546 19.9445C3.53973 19.4288 3.25 18.7293 3.25 18V6C3.25 5.27065 3.53973 4.57118 4.05546 4.05546C4.57118 3.53973 5.27065 3.25 6 3.25H14.86C15.0589 3.25 15.2497 3.32902 15.3903 3.46967C15.531 3.61032 15.61 3.80109 15.61 4C15.61 4.19891 15.531 4.38968 15.3903 4.53033C15.2497 4.67098 15.0589 4.75 14.86 4.75H6C5.66848 4.75 5.35054 4.8817 5.11612 5.11612C4.8817 5.35054 4.75 5.66848 4.75 6V18C4.75 18.3315 4.8817 18.6495 5.11612 18.8839C5.35054 19.1183 5.66848 19.25 6 19.25H18C18.3315 19.25 18.6495 19.1183 18.8839 18.8839C19.1183 18.6495 19.25 18.3315 19.25 18V10.29C19.25 10.0911 19.329 9.90032 19.4697 9.75967C19.6103 9.61902 19.8011 9.54 20 9.54C20.1989 9.54 20.3897 9.61902 20.5303 9.75967C20.671 9.90032 20.75 10.0911 20.75 10.29V18C20.75 18.7293 20.4603 19.4288 19.9445 19.9445C19.4288 20.4603 18.7293 20.75 18 20.75Z" fill="#1f2229"></path> <path d="M10.5 15.25C10.3071 15.2352 10.1276 15.1455 10 15L7.00001 12C6.93317 11.86 6.91136 11.7028 6.93759 11.5499C6.96382 11.3971 7.03679 11.2561 7.14646 11.1464C7.25613 11.0368 7.3971 10.9638 7.54996 10.9376C7.70282 10.9113 7.86006 10.9331 8.00001 11L10.47 13.47L19 4.99998C19.14 4.93314 19.2972 4.91133 19.4501 4.93756C19.6029 4.96379 19.7439 5.03676 19.8536 5.14643C19.9632 5.2561 20.0362 5.39707 20.0624 5.54993C20.0887 5.70279 20.0669 5.86003 20 5.99998L11 15C10.8724 15.1455 10.693 15.2352 10.5 15.25Z" fill="#000000"></path> </g></svg>
-<p>Disponibilité continue 24/7</p></li>
-            <li><svg height="37" width="37" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 20.75H6C5.27065 20.75 4.57118 20.4603 4.05546 19.9445C3.53973 19.4288 3.25 18.7293 3.25 18V6C3.25 5.27065 3.53973 4.57118 4.05546 4.05546C4.57118 3.53973 5.27065 3.25 6 3.25H14.86C15.0589 3.25 15.2497 3.32902 15.3903 3.46967C15.531 3.61032 15.61 3.80109 15.61 4C15.61 4.19891 15.531 4.38968 15.3903 4.53033C15.2497 4.67098 15.0589 4.75 14.86 4.75H6C5.66848 4.75 5.35054 4.8817 5.11612 5.11612C4.8817 5.35054 4.75 5.66848 4.75 6V18C4.75 18.3315 4.8817 18.6495 5.11612 18.8839C5.35054 19.1183 5.66848 19.25 6 19.25H18C18.3315 19.25 18.6495 19.1183 18.8839 18.8839C19.1183 18.6495 19.25 18.3315 19.25 18V10.29C19.25 10.0911 19.329 9.90032 19.4697 9.75967C19.6103 9.61902 19.8011 9.54 20 9.54C20.1989 9.54 20.3897 9.61902 20.5303 9.75967C20.671 9.90032 20.75 10.0911 20.75 10.29V18C20.75 18.7293 20.4603 19.4288 19.9445 19.9445C19.4288 20.4603 18.7293 20.75 18 20.75Z" fill="#1f2229"></path> <path d="M10.5 15.25C10.3071 15.2352 10.1276 15.1455 10 15L7.00001 12C6.93317 11.86 6.91136 11.7028 6.93759 11.5499C6.96382 11.3971 7.03679 11.2561 7.14646 11.1464C7.25613 11.0368 7.3971 10.9638 7.54996 10.9376C7.70282 10.9113 7.86006 10.9331 8.00001 11L10.47 13.47L19 4.99998C19.14 4.93314 19.2972 4.91133 19.4501 4.93756C19.6029 4.96379 19.7439 5.03676 19.8536 5.14643C19.9632 5.2561 20.0362 5.39707 20.0624 5.54993C20.0887 5.70279 20.0669 5.86003 20 5.99998L11 15C10.8724 15.1455 10.693 15.2352 10.5 15.25Z" fill="#000000"></path> </g></svg>
-<p>Service fiable et à l'heure</p></li>
-            <div class="sepbetween"></div>
-          </ul>
+
+
+<style>
+  /* VIP Chauffeur Service Theme */
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #373632; /* dark elegant bg */
+    box-shadow: 0 0 15px #c50c2766; /* subtle red glow */
+    padding: 15px 10px;
+    border-radius: 5em;
+  }
+
+  .social-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+    background-color: #c50c27; /* deep red base */
+    box-shadow: 0 0 8px #c50c2788;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+
+  .social-button svg {
+    transition: fill 0.3s;
+    height: 25px;
+    width: 25px;
+    fill: #373632; /* dark fill inside */
+  }
+
+  .social-button:hover {
+    background-color: #c50d27; /* lighter red on hover */
+    box-shadow: 0 0 12px #c50d27cc;
+  }
+
+  .social-button:hover svg {
+    fill: #373632; /* keep icon dark for contrast */
+  }
+</style>
+
+
         </div>
       </div>
       <div class="col-lg-2 col"></div>
       <div class="col-lg-4 col-md-6 mt-0 mt-md-5 d-flex">
 <style>
-  /* Background & container */
   .request-form {
-    background-color: #1f2229;
+    background-color: #373632;
     padding: 20px;
     border-radius: 8px;
-    color: #ffd255;
+    color: #ababab;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    box-shadow: 0 0 10px #ffc37133;
+    box-shadow: 0 0 10px #c50c2755;
   }
 
-  /* Labels */
   .request-form label.label {
-    color: #f6b302;
+    color: #ababab;
     font-weight: 600;
   }
 
-  /* Inputs */
   .request-form input.form-control {
-    background-color: #2b2e35;
-    border: 1.5px solid #3c3f46;
+    background-color: #373632;
+    border: 1.5px solid #373632;
     color: #ffffff;
     transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
   }
 
-  /* Placeholder color updated to white - all browsers */
-  .request-form input.form-control::placeholder {
-    color: #ffffff !important;
-    opacity: 1 !important;
-  }
-  .request-form input.form-control::-webkit-input-placeholder {
-    color: #ffffff !important;
-    opacity: 1 !important;
-  }
-  .request-form input.form-control::-moz-placeholder {
-    color: #ffffff !important;
-    opacity: 1 !important;
-  }
-  .request-form input.form-control:-ms-input-placeholder {
-    color: #ffffff !important;
-    opacity: 1 !important;
-  }
+  .request-form input.form-control::placeholder,
+  .request-form input.form-control::-webkit-input-placeholder,
+  .request-form input.form-control::-moz-placeholder,
+  .request-form input.form-control:-ms-input-placeholder,
   .request-form input.form-control:-moz-placeholder {
     color: #ffffff !important;
     opacity: 1 !important;
   }
 
   .request-form input.form-control:focus {
-    border-color: #ffc371;
-    box-shadow: 0 0 8px #ffc37188;
+    border-color: #c50c27;
+    box-shadow: 0 0 8px #c50c2788;
     outline: none;
-    background-color: #3c3f46;
-    color: #ffd255;
+    background-color: #373632;
+    color: #ababab;
     transform: scale(1.03);
     z-index: 10;
   }
@@ -675,19 +707,18 @@
   .request-form input.form-control,
   .request-form input.form-control:focus,
   .request-form input.form-control:-webkit-autofill {
-    color: #ffd255 !important;
+    color: #ababab !important;
     -webkit-text-fill-color: #ffffff !important;
   }
 
   .request-form .input-group-text {
-    background-color: #2b2e35;
-    border: 1.5px solid #3c3f46;
-    color: #f6b302;
+    background-color: #373632;
+    border: 1.5px solid #373632;
+    color: #c50c27;
   }
 
-  /* Radio buttons */
   .toggle-container.wide {
-    background-color: #2b2e35;
+    background-color: #373632;
     border-radius: 5px;
     padding: 5px;
     display: flex;
@@ -700,75 +731,71 @@
 
   .toggle-container.wide label {
     cursor: pointer;
-    color: #f6b302;
+    color: #ababab;
     padding: 6px 15px;
     border-radius: 4px;
-    background-color: #3c3f46;
+    background-color: #373632;
     user-select: none;
     transition: background-color 0.3s ease;
   }
 
   .toggle-container.wide input.toggle:checked + label {
-    background-color: #ffc371;
-    color: #1f2229;
-    box-shadow: 0 0 10px #f6b302aa;
+    background-color: #c50c27;
+    color: #ffffff;
+    box-shadow: 0 0 10px #c50c27aa;
   }
 
-  /* Date & time inputs */
   input[type="date"],
   input[type="time"] {
-    color: #ffd255;
-    background-color: #2b2e35;
-    border: 1.5px solid #3c3f46;
+    color: #ababab;
+    background-color: #373632;
+    border: 1.5px solid #373632;
     border-radius: 4px;
     padding-right: 30px;
   }
 
   input[type="date"]::-webkit-calendar-picker-indicator,
   input[type="time"]::-webkit-calendar-picker-indicator {
-    filter: brightness(2) sepia(1) saturate(10) hue-rotate(5deg);
+    filter: brightness(2) sepia(1) saturate(8) hue-rotate(20deg);
   }
 
-  /* Error messages */
   .invalid-feedback,
   #phoneError,
   #departureError,
   #arrivalError,
   #captchaError {
-    color: #ff6f6f;
+    color: #ff7c7c;
     font-weight: 600;
     margin-top: 5px;
   }
 
   .address-feedback {
-    color: #ffd255aa;
+    color: #ababab88;
     font-size: 0.9em;
   }
 
-  /* Submit button - bright taxi yellow */
   .btn-primary {
-    background: linear-gradient(45deg, #ffc371, #f6b302);
+    background: linear-gradient(45deg, #c50c27, #c50d27);
     border: none;
     font-weight: 700;
-    box-shadow: 0 0 8px #f6b302cc;
+    box-shadow: 0 0 8px #c50c27cc;
     transition: background 0.3s ease, box-shadow 0.3s ease;
-    color: #1f2229;
+    color: #ffffff;
   }
 
   .btn-primary:hover {
-    background: linear-gradient(45deg, #f6b302, #ffd255);
-    box-shadow: 0 0 12px #ffd255ee;
+    background: linear-gradient(45deg, #c50d27, #ababab);
+    box-shadow: 0 0 12px #abababee;
   }
 
-  /* Phone icon & button */
   .btn-number {
-    background-color: #2b2e35;
-    border: 1.5px solid #ffc371;
+    background-color: #373632;
+    border: 1.5px solid #c50c27;
     padding: 8px 15px;
     border-radius: 5px;
     display: inline-flex;
     align-items: center;
-    color: #ffd255;
+    color: #ababab;
     text-decoration: none;
     font-weight: 600;
     margin-top: 10px;
@@ -776,16 +803,18 @@
   }
 
   .btn-number:hover {
-    background-color: #f6b302;
-    border-color: #ffd255;
-    color: #1f2229;
+    background-color: #c50c27;
+    border-color: #c50d27;
+    color: #ffffff;
   }
 
   .btn-number svg {
-    fill: #f6b302;
+    fill: #c50c27;
     margin-right: 8px;
   }
 </style>
+
+
 
 
 
@@ -937,7 +966,6 @@
 </script>
 
 
-
         </div>
     </div>
   </div>
@@ -949,13 +977,13 @@
 
 @media screen and (max-width: 767px) {   
   .background{
-    background-image: url('assets/images/newbgm.jpeg');
+    background-image: url('./assets/images/bgnewrev1mobile.jpg');
   } 
 }
   
 @media screen and (min-width: 768px) {   
   .background{
-    background-image: url('assets/images/newbg.jpeg');
+    background-image: url('./assets/images/bgnewrev1.jpeg');
   } 
 }
   
@@ -1123,7 +1151,6 @@
     cursor: grab;
   }
 </style>
-
 
 
 
