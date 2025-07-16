@@ -32,23 +32,17 @@
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+<!-- Google reCaptcha -->
+<script src="../../www.google.com/recaptcha/api.js"></script>
+
 
 
   <!-- Vendor CSS Files -->
-  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="../assets/vendor/drift-zoom/drift-basic.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="../assets/css/main.css" rel="stylesheet">
 
 
+<!-- Google reCaptcha -->
+<script src="../../www.google.com/recaptcha/api.js"></script>
 
  <!-- Google tag (gtag.js) -->
  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16909657112"></script>
@@ -530,7 +524,7 @@
             <h1 class="mb-4 text-center">Taxis à la Gare de l'Est</h1>
             <hr class="mx-auto w-25 separate">
             <p class="text-center">Découvrez les stations de taxis à proximité de la gare et les options disponibles à proximité pour votre confort.<p>
-              <br><br><br><br>
+              
           </div>
         </div>
 
@@ -767,6 +761,200 @@ a.booking-btn-outline {
         </div>
       </div>
     </section> <!-- .section -->
+
+
+<style>
+  /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
+:root { 
+  --background-color: #f7f7f7; /* Light gray background for the entire website */
+  --default-color: #373632;    /* Dark gray for general text */
+  --heading-color: #373632;    /* Medium gray for headings and titles */
+  --accent-color: #c50c27;     /* Deep red accent color for buttons, links, etc. */
+  --surface-color: #ffffff;    /* Pure white for cards or sections */
+  --contrast-color: #ffffff;   /* Alternate red tone for contrast text */
+}
+  /*--------------------------------------------------------------
+# Call To Action Section
+--------------------------------------------------------------*/
+.call-to-action {
+  position: relative;
+  overflow: hidden;
+}
+
+.call-to-action::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("assets/img/hotel/showcase-3.webp");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1;
+  z-index: 0;
+}
+
+.call-to-action .container {
+  position: relative;
+  z-index: 1;
+}
+
+.call-to-action .cta-content {
+  background: var(--surface-color);
+  border-radius: 20px;
+  padding: 60px 40px;
+  box-shadow: 0 20px 60px color-mix(in srgb, var(--default-color), transparent 90%);
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 80%);
+}
+
+@media (max-width: 768px) {
+  .call-to-action .cta-content {
+    padding: 40px 30px;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .call-to-action .text-content {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}
+
+.call-to-action .text-content h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--heading-color);
+}
+
+@media (max-width: 768px) {
+  .call-to-action .text-content h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .call-to-action .text-content h2 {
+    font-size: 1.75rem;
+  }
+}
+
+.call-to-action .text-content .lead {
+  font-size: 1.1rem;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .call-to-action .text-content .lead {
+    font-size: 1rem;
+  }
+}
+
+.call-to-action .cta-action {
+  position: relative;
+}
+
+.call-to-action .btn-cta {
+  background: linear-gradient(135deg, var(--accent-color), color-mix(in srgb, var(--accent-color), #000 15%));
+  color: var(--contrast-color);
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 15px 35px;
+  border-radius: 50px;
+  border: none;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  box-shadow: 0 8px 25px color-mix(in srgb, var(--accent-color), transparent 60%);
+  transition: all 0.3s ease;
+}
+
+.call-to-action .btn-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 35px color-mix(in srgb, var(--accent-color), transparent 50%);
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent-color), #000 10%), color-mix(in srgb, var(--accent-color), #000 25%));
+  color: var(--contrast-color);
+}
+
+.call-to-action .btn-cta:active {
+  transform: translateY(0);
+}
+
+.call-to-action .btn-cta i {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .call-to-action .btn-cta {
+    font-size: 1rem;
+    padding: 12px 30px;
+  }
+}
+
+.call-to-action .offer-badge {
+  background: linear-gradient(135deg, #28a745, color-mix(in srgb, #28a745, #000 15%));
+  color: white;
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  display: inline-block;
+  box-shadow: 0 4px 15px color-mix(in srgb, #28a745, transparent 60%);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.call-to-action .feature-item .icon-wrapper {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, var(--accent-color), color-mix(in srgb, var(--accent-color), #000 15%));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.call-to-action .feature-item .icon-wrapper i {
+  font-size: 1.8rem;
+  color: var(--contrast-color);
+}
+
+.call-to-action .feature-item:hover .icon-wrapper {
+  transform: translateY(-5px) scale(1.1);
+  box-shadow: 0 10px 25px color-mix(in srgb, var(--accent-color), transparent 60%);
+}
+
+.call-to-action .feature-item h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--heading-color);
+}
+
+.call-to-action .feature-item p {
+  font-size: 0.9rem;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+</style>
 
 
 <!-- Call To Action Section -->
