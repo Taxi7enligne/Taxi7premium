@@ -28,4 +28,4 @@ User-agent: meta-externalagent
 Disallow: /
 
 # Sitemap location for Google and others
-Sitemap: https://taxi7express.com/sitemap.xml
+Sitemap: https://taxi7premium.com/sitemap.xml
